@@ -7,8 +7,8 @@ import React from 'react';
 const service_content = {
     bg_img: "/assets/img/service/service-5-1-bg.png",
     sub_title: "What we Offer",
-    title: <>Get a Live <br/ >Look at Your <br /><span>Manufacturing</span> <br /> <span>Business</span> </>,
-    description: <>Access the insights you need to move products and <br /> make decisions.</>,
+    title: <>Grow Your Business<br/ >Through Our<br /><span>Spectrum Of</span> <br /> <span>Services</span> </>,
+    description: <>From concept to conversion, <br />We are your digital growth engine.</>,
     btn_text: "All Services",
 }
 const {bg_img, sub_title, title, description, btn_text}  = service_content
@@ -54,7 +54,7 @@ const ServiceArea = () => {
                                           <h3 className="tp-service-five-title-sm">
                                             <Link href="/service-details">Digital <br /> Marketing</Link>
                                           </h3>
-                                          <p>Track materials and stock for outsourced purchase orders</p>
+                                          <p>Our Digital Marketers will help to increase traffic, boost conversion rates, and maximize your business's revenue.</p>
                                        </div>
                                     </div>
                                     <div className="tp-service-five-btn text-end">
@@ -79,7 +79,7 @@ const ServiceArea = () => {
                                           <h3 className="tp-service-five-title-sm">
                                             <Link href="/service-details">Website <br /> Development</Link>
                                           </h3>
-                                          <p>Track materials and stock for outsourced purchase orders</p>
+                                          <p>DigiExpo professional web developers will bring the digital vision of your brand to life with a user-friendly, and responsive website.</p>
                                        </div>
                                     </div>
                                     <div className="tp-service-five-btn text-end">
@@ -104,7 +104,7 @@ const ServiceArea = () => {
                                           <h3 className="tp-service-five-title-sm">
                                             <Link href="/service-details">Search Engine <br />Optimization</Link>
                                           </h3>
-                                          <p>Track materials and stock for outsourced purchase orders</p>
+                                          <p>Enhance your business online presence and drive targeted traffic with DigiExpo's expert SEO and content creation services.</p>
                                        </div>
                                     </div>
                                     <div className="tp-service-five-btn text-end">
@@ -129,7 +129,7 @@ const ServiceArea = () => {
                                           <h3 className="tp-service-five-title-sm">
                                             <Link href="/service-details">Social Media <br /> Marketing</Link>
                                           </h3>
-                                          <p>Track materials and stock for outsourced purchase orders</p>
+                                          <p>We will help you to increase your brand’s visibility, engagement, and business growth with our expert social media marketers.</p>
                                        </div>
                                     </div>
                                     <div className="tp-service-five-btn text-end">

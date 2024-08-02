@@ -21,7 +21,9 @@ import ContactArea from "./contact-area";
 import Footer from "@/layout/footers/footer";
 import Portfolio from "./portfolio";
 import BlogArea from "./blog-area";
+import Brand from "../../about/brand";
 import FooterFour from "@/layout/footers/footer-4";
+import ContactArea2 from "./contact-area2";
 
 const HomeOne = () => {
 	return (
@@ -31,23 +33,17 @@ const HomeOne = () => {
 				<div id="smooth-content">
 					<main className="fix">
 						<HeroSlider />
-						<PaymentMethodArea />
+						<Brand />
 						<ServiceArea />
+						<ContactArea2 />
 						<BusinessBox />
+						<ProjectArea />
 						<TestimonialArea />
-						<TestimonialArea1 />
 						<AboutArea />
 						<FunFactArea />
 						<FaqArea />
 						<BlogArea />
 						<ContactArea />
-						{/* <FeatureArea />
-						<AboutArea />
-						<ServicesArea />
-						<ProjectArea />
-						<TestimonialArea />
-						<RankArea />
-						<PriceArea /> */}
 					</main>
 					<FooterFour />
 					<ScrollToTop />

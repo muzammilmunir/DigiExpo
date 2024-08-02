@@ -4,8 +4,8 @@ import Link from 'next/link';
 import React from 'react';
 
 const blog_content = {
-    sub_title:"News Feeds",
-    title:"Blog & Insights",
+    sub_title:"Get Tips, Trends, and Insights from Our Digital Marketing Blogs",
+    title:"Our Digital Marketing Digest",
 }
 const {sub_title, title}  = blog_content
 
@@ -17,13 +17,13 @@ const BlogArea = () => {
                   <div className="row align-items-end tp-blog-four-section-space">
                      <div className="col-xl-6 col-lg-6">
                         <div className="tp-blog-four-section-box">
-                           {/* <h5 className="tp-section-subtitle-4 pb-10">{sub_title}</h5> */}
                            <h3 className="tp-section-title-4">{title}</h3>
+                           <h5 className="tp-section-subtitle-4 pt-10">{sub_title}</h5>
                         </div>
                      </div>
                      <div className="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div className="tp-blog-four-btn text-start text-lg-end">
-                           <Link className="tp-btn tp-btn-hover alt-color-black" href="/blog-details"><span>Show More</span><b></b></Link>
+                           <Link className="tp-btn tp-btn-hover alt-color-black" href="/blog-details"><span>View All</span><b></b></Link>
                         </div>
                      </div>
                   </div>

@@ -10,7 +10,7 @@ import img_3 from "../../../../public/assets/img/about/about-4-2.png";
 const about_content = { 
    //  sub_title: "Who we are",
     title: "Confidence in Your Security", 
-    des: <>These cyberattacks are usually aimed at accessing, changing,or destroying sensitive information normal business processes.!</>,
+    des: <>With impressive clientele, enriching experience and impeccable track record, we are the most reliable digital marketing agency in Dubai. At DigiExpo, we blend strategic insights with unparalleled creativity and advanced technology to upgrade the visibility of your online brand and to deliver tangible outcomes.</>,
     feature_1: <>High-Performance <br /> Solutions</>,
     feature_2: <>Best Cyber Security <br /> Solutions.</>,
     btn_text: "About Us",

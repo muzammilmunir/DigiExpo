@@ -34,15 +34,15 @@ const hero_content = {
 	hero_title: (
 		<>
 			<span className="tp_title">
-				<span className="child">The Leading Customer</span>
+				<span className="child">DigiExpo Helps Brand With</span>
 			</span>{" "}
 			<br />
 			<span>
-				<span className="child">Data Platform</span>
+				<span className="child">Business Growth</span>
 			</span>{" "}
 		</>
 	),
-	sub_title: <>We are not going to save your data</>,
+	sub_title: <> We're Not Just Digital Wizards, We're Magicians With Metrics</>,
 	hero_shape_img: [
 		{
 			id: 1,

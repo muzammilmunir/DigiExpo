@@ -99,6 +99,10 @@
     color: #FFF !important;
 }
 
+.tp-about-area .tp-section-title-4{
+    color: #FFF !important;
+}
+
 .tp-section-title-5{
     font-weight: 200;
     font-size: 50px;
@@ -208,6 +212,15 @@
         }   
     }
 }
+
+.tp-blog-area .tp-section-subtitle-4{
+    color: #7B42F7;
+
+    &::before{
+        background-color:#7B42F7;
+    }
+}
+
 .tp-section-subtitle-5{
     font-weight: 500;
     font-size: 14px;

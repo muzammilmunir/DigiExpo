@@ -8,7 +8,7 @@ import img from "../../../../public/assets/img/faq/faq-1.png"
 const faq_content = {
     sub_title: "Support",
     title: <>Frequently <br /> Asked Questions</>,
-    description: <>Sed ut perspiciatis unde omnis iste natus error <br /> sit voluptatem accusantium.!</>,
+    description: <>Got Questions? We've Got Answers! <br />Your Digital Success Starts Here.</>,
     btn_text: "Get in Touch",
 }
 const {sub_title, title, description, btn_text }  = faq_content
@@ -19,7 +19,7 @@ const FaqArea = ({style_service}) => {
             <div className="tp-faq-area pt-140 pb-120 fix">
                <div className="container">
                   <div className="row"> 
-                     <div className={`col-xl-6 col-lg-6 ${style_service && "wow tpfadeLeft"}`} 
+                     <div className={`col-xl-5 col-lg-5 ${style_service && "wow tpfadeLeft"}`} 
                         data-wow-duration={style_service && ".9s"} 
                         data-wow-delay={style_service && ".4s"}>
                         <div className="tp-faq-left-wrapper p-relative">
@@ -40,7 +40,7 @@ const FaqArea = ({style_service}) => {
                            </div>
                         </div>
                      </div>
-                     <div className="col-xl-6 col-lg-6">
+                     <div className="col-xl-7 col-lg-7">
                         <AnswerQuestion /> 
                      </div>
                   </div>
