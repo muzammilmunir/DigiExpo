@@ -1,5 +1,4 @@
 import FooterFour from "@/layout/footers/footer-4";
-import Header from "@/layout/headers/header";
 import React from "react";
 import HeroArea from "../homes/home-2/hero-area";
 import Brand from "../about/brand";
@@ -14,11 +13,12 @@ import BlogArea from "../homes/home/blog-area";
 import ContactArea from "../homes/home/contact-area";
 import TestimonialArea from "../homes/home/testimonial-area";
 import AboutArea from "../homes/home/about-area";
+import HeaderTwo from "@/layout/headers/header-2";
 
 const MobileApp = () => {
   return (
     <>
-      <Header />
+      <HeaderTwo />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main className="fix">

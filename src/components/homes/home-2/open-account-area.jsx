@@ -67,7 +67,7 @@ const {account_shape, sub_title, title, account_step, btn_text, info}  = account
 const OpenAccountArea = () => {
     return (
       <>
-        <div className="tp-account-area pb-120">
+        <div className="tp-account-area pb-120 pt-120">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-6 col-lg-6">

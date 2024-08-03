@@ -1,5 +1,5 @@
 import FooterFour from "@/layout/footers/footer-4";
-import HeaderSix from "@/layout/headers/header-6";
+import HeaderThree from "@/layout/headers/header-3";
 import React from "react";
 import HeroArea from "../homes/home-3/hero-area";
 import Brand from "../about/brand";
@@ -18,7 +18,7 @@ import ContactArea from "../homes/home/contact-area";
 const WebDevelopment = () => {
   return (
     <>
-      <HeaderSix />
+      <HeaderThree />
       <HeroArea />
       <Brand />
       <ServicesArea/>

@@ -1,6 +1,6 @@
 import BreadcrumbThree from "@/common/breadcrumbs/breadcrumb-3";
 import FooterFour from "@/layout/footers/footer-4";
-import Header from "@/layout/headers/header";
+import HeaderSix from "@/layout/headers/header-6";
 import React from "react";
 import CarrerBanner from "../career/carrer-banner";
 import Brand from "../about/brand";
@@ -18,7 +18,7 @@ import AboutArea2 from "../homes/home/about-area";
 const NextGen = () => {
   return (
     <>
-      <Header />
+      <HeaderSix />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>

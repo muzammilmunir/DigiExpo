@@ -1,5 +1,3 @@
-
-import Header from "@/layout/headers/header";
 import React from "react";
 import HeroArea from "../homes/home-4/hero-area";
 import Brand from "../about/brand";
@@ -14,11 +12,12 @@ import FaqArea from "../homes/home/faq-area";
 import ContactArea2 from "../homes/home/contact-area2";
 import ServiceArea from "../service/service-area";
 import ServiceArea2 from "../homes/home-2/service-area";
+import HeaderSix from "@/layout/headers/header-6";
 
 const Ecommerce = () => {
   return (
     <>
-      <Header />
+      <HeaderSix />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>

@@ -53,16 +53,28 @@ const menu_data = [
   //   ],
   // },
   
+  // {
+  //   id: 3,
+  //   mega_menu: false,
+  //   has_dropdown: true,
+  //   title: "Projects",
+  //   link: "/project",
+  //   active: "",
+  //   sub_menus: [
+  //     { link: "/project", title: "Project" },
+  //     { link: "/project-details", title: "Project Details" }, 
+  //   ],
+  // },
   {
     id: 3,
     mega_menu: false,
     has_dropdown: true,
-    title: "Projects",
-    link: "/project",
+    title: "Case Studies",
+    link: "#",
     active: "",
     sub_menus: [
-      { link: "/project", title: "Project" },
-      { link: "/project-details", title: "Project Details" }, 
+      { link: "/hyggeBikes", title: "Hygge Bikes" },
+      // { link: "/project-details", title: "Project Details" }, 
     ],
   },
 

@@ -27,8 +27,7 @@ const ServicesArea = () => {
    useTitleAnimation(titleRef)
     return (
         <>
-            <div className="tp-service__area p-relative fix">
-               <div className="tp-service__grey-shape grey-bg"></div>
+            <div className="tp-service__area p-relative fix pt-110 pb-110">
                <div className="container">
                   <div className="row justify-content-center">
                      <div className="col-lg-8">

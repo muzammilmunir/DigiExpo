@@ -1,8 +1,5 @@
-import BreadcrumbFour from "@/common/breadcrumbs/breadcrumb-4";
-import FooterFive from "@/layout/footers/footer-5";
-import Header from "@/layout/headers/header";
+import HeaderFive from "@/layout/headers/header-5";
 import React from "react";
-import IntegrationArea from "../homes/home-3/integration-area";
 import FeatureArea from "../homes/home-5/feature-area";
 import HeroArea from "../homes/home-5/hero-area";
 import Brand from "../about/brand";
@@ -22,7 +19,7 @@ import FaqArea from "../homes/home/faq-area";
 const DigitalMarketing = () => {
   return (
     <>
-      <Header />
+      <HeaderFive />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
