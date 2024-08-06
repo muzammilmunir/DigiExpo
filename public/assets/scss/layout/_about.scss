@@ -230,7 +230,10 @@
   font-size: 36px;
   line-height: 40px;
   color: #080829;
-  padding-bottom: 10px;
+  &.text-purple{
+    color: #7B42F7;
+  }
+
 }
 
 .ab-brand-item {

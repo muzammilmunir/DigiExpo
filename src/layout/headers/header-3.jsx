@@ -39,7 +39,7 @@ const HeaderThree = () => {
                               </Link>
                            </div>
                            <div className="header-bottom__btn d-flex align-items-center">
-                              <Link className="tp-btn-blue-sm d-none d-md-inline-block tp-btn-hover alt-color-black" href="/service-details">
+                              <Link className="tp-btn d-none d-md-inline-block tp-btn-hover alt-color-black" href="/service-details">
                                  <span>Get Free</span>
                                  <b></b>
                               </Link>

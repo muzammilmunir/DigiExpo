@@ -14,8 +14,8 @@ import brand_img_8 from "../../../public/assets/img/brand/brand-inner-8.png"
 import brand_img_9 from "../../../public/assets/img/brand/brand-inner-9.png"
 
 const brand_content = {
-    titel: "Trusted by Thousands Business",
-    description: <>More than 100,000+ teams are using Softuch</>,
+    titel: "Challenges We've Conquered",
+    description: <>We achieved remarkable results together.</>,
     
     brand_img: [
         {img: brand_img_1, delay: ".2s"},
@@ -42,7 +42,7 @@ const Brand = () => {
               <div className="row">
                 <div className="col-12">
                   <div className="ab-brand-section-box text-center mb-50">
-                    <h4 className="ab-brand-title">{titel}</h4>
+                    <h4 className="ab-brand-title text-purple">{titel}</h4>
                     <p>{description}</p>
                   </div>
                 </div>

@@ -21,7 +21,7 @@ const HeroArea = () => {
    
     return (
         <>
-            <div className="tp-hero-area tp-hero-five__ptb-5 p-relative grey-bg-2 fix">
+            <div className="tp-hero-area tp-hero-five__ptb-5 p-relative purple-bg-2 fix">
                   <div className="tp-hero-five__shape-2">
                      <Image src={shape_1} alt="theme-pure" />
                   </div>
@@ -49,11 +49,11 @@ const HeroArea = () => {
                                     <i><i className="child-2"><span className="child-2">Management</span> With <br /></i></i>
                                     <i><i className="child-2">Software</i></i>
                                  </h3>
-                                 <p className="wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">A simple solution for building the optimal work <br /> schedule for your business.</p>
+                                 <p className="wow tpfadeUp text-black" data-wow-duration=".9s" data-wow-delay=".5s">A simple solution for building the optimal work <br /> schedule for your business.</p>
                               </div>
                               <div className="tp-hero-five-btn-box d-flex align-items-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
                                  <Link className="tp-btn-blue-lg purple-bg circle-effect mr-15 mb-20" href="/">Get Started</Link>
-                                 <Link className="tp-btn-grey mb-20" href="/service-details">Try a Damo</Link>
+                                 <Link className="tp-btn-yellow-lg mb-20" href="/service-details">Try a Demo</Link>
                               </div>
                            </div>
                         </div>

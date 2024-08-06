@@ -22,7 +22,7 @@ const ContactArea2 = () => {
     const selectHandler = (e) => {};
     return (
         <>
-            <div className="tp-contact-area tp-contact-overlay pt-120 pb-120 purple-bg z-index p-relative fix">
+            <div className="tp-contact-area pt-120 pb-120 black-bg z-index p-relative fix">
                <div className="tp-contact-glob-img">
                   <Image src={contact_img} alt="theme-pure" />
                </div>
@@ -69,7 +69,12 @@ const ContactArea2 = () => {
                                     <input type="email" placeholder="Email address" required />
                                  </div>
                               </div>
-                              <div className="col-xl-12">
+                              <div className="col-xl-6">
+                              <div className="tp-contact-input mb-20">
+                                    <input type="tel" placeholder="Phone Number" required />
+                                 </div>
+                              </div>
+                              <div className="col-xl-6">
                                  <div className="tp-contact-select">
                                     <div className="tp-select-icon"> 
                                        <NiceSelect
@@ -95,7 +100,7 @@ const ContactArea2 = () => {
                               </div>
                               <div className="col-xl-12">
                                  <div className="tp-contact-btn">
-                                    <button type="submit" className="tp-btn-yellow-lg w-100">Get a free consultation</button>
+                                    <button type="submit" className="tp-btn-yellow-lg w-100"><span></span>Get a free consultation</button>
                                  </div>
                               </div>
                            </div>

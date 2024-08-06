@@ -17,8 +17,8 @@ const BlogArea = () => {
                   <div className="row align-items-end tp-blog-four-section-space">
                      <div className="col-xl-6 col-lg-6">
                         <div className="tp-blog-four-section-box">
-                           <h3 className="tp-section-title-4">{title}</h3>
-                           <h5 className="tp-section-subtitle-4 pt-10">{sub_title}</h5>
+                           <h3 className="tp-section-title-4 text-purple">{title}</h3>
+                           <h5 className="tp-section-subtitle-4 pt-10 text-purple">{sub_title}</h5>
                         </div>
                      </div>
                      <div className="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">

@@ -24,7 +24,7 @@ const FeatureArea = ({style_integraton}) => {
                            <div className="tp-feature-five-section-box text-center mb-40">
                             {style_integraton ? 
                                 <>
-                                <h3 className="tp-section-title-5 text-black">
+                                <h3 className="tp-section-title-5 text-purple">
                                     <span>
                                         {integraton_title}
                                     </span>
@@ -33,7 +33,7 @@ const FeatureArea = ({style_integraton}) => {
                                 </>
                                 :
                                 <>
-                                <h3 className="tp-section-title-5 text-black">{title}</h3>
+                                <h3 className="tp-section-title-5 text-purple">{title}</h3>
                                 <p>{des}</p>                                
                                 </>
                             }
@@ -54,7 +54,7 @@ const FeatureArea = ({style_integraton}) => {
                                             <p>{item.description}</p>
                                         </div>
                                         <div className="tp-feature-five-btn">
-                                            <Link className="tp-btn-purple" href="/service-details">Learn More</Link>
+                                            <Link className="tp-btn tp-btn-hover alt-color-black" href="/service-details"><span>Learn More</span><b></b></Link>
                                         </div>
                                     </div>
                                 </div>

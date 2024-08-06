@@ -292,6 +292,9 @@
 	overflow: hidden;
 	display: inline-block;
 	z-index: 1;
+	&.purple-border{
+		border-color: var(--tp-common-blue-4);
+	}
 	@media #{$xs}{
 		height: 50px;
 		line-height: 50px;
@@ -488,7 +491,7 @@
 .tp-btn-service{
 	height: 40px;
 	line-height: 35px;
-	border: 1.5px solid rgba(255, 255, 255, 0.1);
+	border: 1.5px solid #FFF;
 	color: var(--tp-common-yellow-3);
 	border-radius: 20px;
 	display: inline-block;
@@ -498,10 +501,17 @@
 	font-weight: 600;
 	font-size: 15px;
 	transition: 0.3s;
+	&.text-lightt{
+		color: #FFF;
+
+		&:hover{
+			color: #6B14FA;
+		}
+	}
 	&:hover{
-		background-color: var(--tp-common-yellow-3);
+		background-color: #FFF;
 		color: var(--tp-common-black);
-		border-color: var(--tp-common-yellow-3);
+		border-color: #FFF;
 	}
 }
 .tp-btn-grey{

@@ -41,7 +41,7 @@ const HeaderTwo = () => {
                         <div className="col-xl-3 col-lg-3 col-md-6 col-6">
                            <div className="tp-header-2__right d-flex align-items-center justify-content-end">
                               <Link className="tp-header-2__login d-none d-md-block" href="/register">{login_btn}</Link>
-                              <Link className="tp-btn-green-sm d-none d-md-block" href="/sign-in">{sign_up_btn}</Link>
+                              <Link className="tp-btn-white tp-btn-hover alt-color-black d-none d-md-block" href="/sign-in"><span className='white-text'>{sign_up_btn}</span><b></b></Link>
                               <a className="header-bottom__bar tp-menu-bar d-lg-none" 
                               onClick={() => setSidebarOpen(true)}
                               ><i className="fal fa-bars"></i></a>

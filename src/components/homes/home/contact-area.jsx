@@ -32,7 +32,7 @@ const ContactArea = () => {
                      <div className="col-xl-5 col-12 z-index-3 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
                         <div className="tp-contact-section-box pb-25">
                            {/* <h5 className="tp-section-subtitle-4 pb-10 ">{sub_title}</h5> */}
-                           <h3 className="tp-section-title-4">{title}</h3>
+                           <h3 className="tp-section-title-4 text-white">{title}</h3>
                         </div>
                         <div className="tp-contact-info-box tp-title-anim">
                            <ul>

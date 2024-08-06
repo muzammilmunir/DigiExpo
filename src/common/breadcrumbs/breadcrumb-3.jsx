@@ -7,7 +7,7 @@ import Image from 'next/image';
 const BreadcrumbThree = () => {
     return (
         <>
-            <div className="breadcrumb__area breadcrumb-height-3 p-relative blue-bg-2 fix">
+            <div className="breadcrumb__area breadcrumb-height-3 p-relative purple-bg-2 fix">
                <div className="breadcrumb__shape-1">
                   <Image src={shape_1} alt="theme-pure" />
                </div>

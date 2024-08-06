@@ -156,10 +156,10 @@ const TestimonialArea = () => {
                                           </div>
                                        </div>
                                        <div className="tp-testimonial-3-thumb d-none d-md-block">
-                                          {/* <Image src={item.img} alt="theme-pure" /> */}
-                                          <video autoPlay muted loop width="300px">
+                                          <Image src={item.img} alt="theme-pure" />
+                                          {/* <video autoPlay muted loop width="300px">
                                              <source src="/assets/img/testimonial/test-video.webm" type="video/webm" />
-                                          </video>
+                                          </video> */}
                                        </div>
                                     </div>
                                  </div>

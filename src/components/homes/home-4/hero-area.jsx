@@ -26,7 +26,7 @@ const HeroArea = () => {
 
     return (
         <>
-            <div className="tp-hero-area tp-hero-overlay blue-bg pt-200 pb-115 p-relative">
+            <div className="tp-hero-area purple-bg-2 pt-200 pb-115 p-relative">
                <div className="tp-hero-4-shape-img  wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
                   <Image src={hero_shape} alt="theme-pure" />
                </div>
@@ -37,7 +37,7 @@ const HeroArea = () => {
                   <div className="row">
                      <div className="col-xl-7 col-lg-7">
                         <div className="tp-hero-4-section-box pt-10 z-index-3">
-                           <h5 className="tp-section-subtitle-4 tp-char-animation wow tpfadeRight" data-wow-duration="1s" data-wow-delay=".6s">{sub_title}</h5>
+                           {/* <h5 className="tp-section-subtitle-4 tp-char-animation wow tpfadeRight" data-wow-duration="1s" data-wow-delay=".6s">{sub_title}</h5> */}
 
                            <h3 className="tp-hero-title-4 pb-35 tp-char-animation">{title}</h3>
 

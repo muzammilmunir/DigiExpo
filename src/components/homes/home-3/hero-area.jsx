@@ -16,7 +16,7 @@ const hero_content = {
    title_1: <>Great <span>Customer</span></>,
    title_2: "Relationships Start Here.",
    info: <>Softec provides all customer management service within one software. <br /> Our landing works on all devices.</>,
-   btn_1: "Live Damo",
+   btn_1: "Live Demo",
    btn_2: "Try it on Browser",
    
 }
@@ -51,11 +51,11 @@ const HeroArea = () => {
                         <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">{info}</p>
                      </div>
                      <div className="tp-hero-btn-3 text-center wow tpfadeUp" data-wow-duration="1s" data-wow-delay=".9s">
-                        <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="#">
+                        <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black purple-bg" href="#">
                            <span>{btn_1}</span>
                            <b></b>
                         </Link>
-                        <Link className="tp-btn-border tp-btn-hover alt-color-black" href="#">
+                        <Link className="tp-btn-border tp-btn-hover alt-color-black purple-border" href="#">
                            <span>{btn_2}</span>
                            <b></b>
                         </Link>
