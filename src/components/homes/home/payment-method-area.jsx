@@ -123,7 +123,7 @@ const payment_method = [
 
 
 const payment_method_info = { 
-    title: <>All major <br /> payment methods</>,
+    title: <>Our Technologies</>,
     desctiption: <>We've got all your payments covered</>,
 
 }
@@ -137,7 +137,7 @@ const PaymentMethodArea = () => {
               <div className="col-xl-7">
                 <div className="tp-payment-method__title-box text-center mb-20">
                   <h3 className="tp-section-title-lg pb-10">{title}</h3>
-                  <p>{desctiption}</p>
+                  {/* <p>{desctiption}</p> */}
                 </div>
               </div>
             </div>

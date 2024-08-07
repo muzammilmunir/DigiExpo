@@ -2,9 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import img_1 from "../../../../public/assets/img/about/about-4-3.png";
-import img_2 from "../../../../public/assets/img/about/about-4-1.png";
-import img_3 from "../../../../public/assets/img/about/about-4-2.png";
+import img_1 from "../../../public/assets/img/about/about-4-3.png";
+import img_2 from "../../../public/assets/img/about/about-4-1.png";
+import img_3 from "../../../public/assets/img/about/about-4-2.png";
 
 // about content here
 const about_content = { 

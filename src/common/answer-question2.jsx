@@ -1,14 +1,14 @@
 import React,{useState} from "react";
 import answer_question_data from "../data/answer-question-data";
 
-const AnswerQuestion = ({style}) => {
+const AnswerQuestion2 = ({style}) => {
   const [shadow , setShadow ] = useState(2) 
   
   return (
     <>
       <div className="tp-custom-accordion">
         <div className={`accordion ${style && "tp-inner-font"}`} id="accordionExample">
-          {answer_question_data.slice(0, 5).map((item) => (
+          {answer_question_data.slice(5, 10).map((item) => (
             <div onClick={() => setShadow(item.id)} key={item.id} 
                  className={`accordion-items ${item.show} ${shadow === item.id && "tp-faq-active"}`}>
               <h2 className="accordion-header" id={item.accordion_id}>
@@ -42,4 +42,4 @@ const AnswerQuestion = ({style}) => {
   );
 };
 
-export default AnswerQuestion;
+export default AnswerQuestion2;

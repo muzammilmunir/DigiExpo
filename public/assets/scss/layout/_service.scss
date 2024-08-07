@@ -385,7 +385,7 @@
 }
 .tp-service-sm{
     &-item{
-        border: 1px solid #E9EBF1;
+        border: 1px solid #7A42F7;
         border-radius: 20px;
         padding: 45px;
         min-height: 360px;
@@ -419,25 +419,26 @@
         transition: .3s;
         & span{
             font-weight: 700;
-            font-size: 11px;
+            font-size: 15px;
             line-height: 8px;
             letter-spacing: 0.03em;
-            text-transform: uppercase;
-            border: 1px solid rgba(32, 33, 36, 0.1);
+            text-transform: capitalize;
             border-radius: 100px;
-            height: 26px;
+            height: 46px;
             line-height: 24px;
             display: inline-block;
-            padding: 0px 15px;
+            padding: 10px 25px;
             margin-bottom: 13px;
+            background-color: #7A42F7;
+            color: white;
         }
     }
     &-title{
         font-family: var(--tp-ff-urban);
-        font-weight: 700;
-        font-size: 24px;
+        font-weight: 400;
+        font-size: 15px;
         line-height: 30px;
-        color: var(--tp-common-black);
+        color: #7A42F7;;
         margin-bottom: 0;
         padding-bottom: 20px;
         transition: .3s;
@@ -463,6 +464,39 @@
         opacity: 0;
         visibility: hidden;
         transition: .3s;
+        &-2{
+            opacity: 1;
+            visibility: visible;
+            & a{
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 14px;
+                color: var(--tp-common-black);
+                font-family: var(--tp-ff-urban);
+                transition: .3s;
+                & i{
+                    margin-left: 7px;
+                    transition: .3s;
+                    position: relative;
+                    top: 2px;
+                }
+                &:hover{
+                    color: var(--tp-theme-1);
+                    & i{
+                        animation: tfLeftToRight 0.4s forwards;
+                    }
+                }
+                & span{
+                    &::before{
+                        content: '';
+                        height: 1px;
+                        width: 20px;
+                        background-color: var(--tp-common-black);
+                        display: inline-block;
+                    }
+                }
+            }
+        }
         & a{
             font-weight: 600;
             font-size: 16px;

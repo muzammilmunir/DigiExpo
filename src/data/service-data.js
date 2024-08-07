@@ -33,7 +33,6 @@ import img_9 from "../../public/assets/img/service/sv-icon-5-4.png";
 
 
 
-
 const  service_data = [
     // for home 01 
     {
@@ -195,37 +194,37 @@ const  service_data = [
         delay: ".9s",
     },
 
-    // service page
+    // Digital Marketing Sub-services page
     {
         id: 18,
         icon: <ServiceIconOne />,
         img: <ServiceIconOne />,
-        title: "Project management jamil",
-        description: <>Automate Workflows <br /> and Monitor your Sales.</>,
+        title: "Social Media Marketing (SMM)",
+        description: <>Transform casual clicks into loyal customers with our expert SMM.</>,
         delay: ".9s",
     },
     {
         id: 19,
         icon: <ServiceIconTwo />,
         img: <ServiceIconTwo />,
-        title: "Sales analytics",
-        description: <>Track your Marketing to see the best Results.</>,
+        title: "Search Engine Optimization(SEO)",
+        description: <>Our SEO pros help you achieve top search rankings and outrank your rivals.</>,
         delay: ".9s",
     },
     {
         id: 20,
         icon: <ServiceIconThree />,
         img: <ServiceIconThree />,
-        title: "Easy Invoicing",
-        description: <>Automate recurring invoices and save time.</>,
+        title: "Performance Marketing",
+        description: <>Boost Your ROI with our Performance Marketing Service</>,
         delay: ".9s",
     },
     {
         id: 21,
         icon: <ServiceIconFoure/>,
         img: <ServiceIconFoure />,
-        title: "Complete Visibility",
-        description: <>Get real-time visibility into every expense.</>,
+        title: "Email Marketing",
+        description: <>Reach more, convert more with our Email Marketing</>,
         delay: ".9s",
     },
     
@@ -233,8 +232,8 @@ const  service_data = [
         id: 22,
         icon: <ServiceIconFive/>,
         img: <ServiceIconFive />,
-        title: "FIELDS OPTION",
-        description: <>Quick & Easy Repeater Fields Option</>,
+        title: "App Store Optimization(ASO)",
+        description: <>Boost your app’s visibility with our ASO magic</>,
         delay: ".9s",
     },
     
@@ -242,8 +241,8 @@ const  service_data = [
         id: 23,
         icon: <ServiceIconsix/>,
         img: <ServiceIconsix />,
-        title: "Safe Online Services",
-        description: <>Online services to view company level.</>,
+        title: "Content Writing",
+        description: <>Connect with your audience through compelling content.</>,
         delay: ".9s",
     },
     
@@ -251,8 +250,16 @@ const  service_data = [
         id: 24,
         icon: <ServiceIconSeven/>,
         img: <ServiceIconSeven />,
-        title: "Online marketing",
-        description: <>Get real-time visibility into every expense.</>,
+        title: " Influencer Marketing",
+        description: <>Connect with Your Target Audience Through Influencers.</>,
+        delay: ".9s",
+    },
+    {
+        id: 25,
+        icon: <ServiceIconSeven/>,
+        img: <ServiceIconSeven />,
+        title: "Content Creation",
+        description: <>Building Brand Connections Through Compelling Digital Narratives</>,
         delay: ".9s",
     },
 

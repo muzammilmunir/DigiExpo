@@ -3,7 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import img from "../../../../public/assets/img/faq/faq-1.png" 
+import img from "../../../public/assets/img/faq/faq-1.png" 
+import AnswerQuestion2 from '@/common/answer-question2';
 
 const faq_content = {
     sub_title: "Support",
@@ -41,7 +42,7 @@ const FaqArea = ({style_service}) => {
                         </div>
                      </div>
                      <div className="col-xl-6 col-lg-7">
-                        <AnswerQuestion /> 
+                        <AnswerQuestion2 /> 
                      </div>
                   </div>
                </div>

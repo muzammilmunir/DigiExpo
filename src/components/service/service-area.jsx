@@ -12,8 +12,8 @@ const service_content = {
     btn_text: <>See All Features</>,
  
     bg_img: "/assets/img/service/service-3-bg.png",
-    service_title: "CRM Management",
-    service_info: <>Generate, Manage, and Convert leads <br /> into Customers. Automatically</>,
+    service_title: "Turn data into results.",
+    service_info: <>Achieve measurable results with our <br />digital Marketing Agency in UAE</>,
  }
  const {title, btn_text, bg_img, service_title, service_info}  = service_content
 
@@ -23,7 +23,7 @@ const ServiceArea = () => {
         <>
             <div className="tp-service-area pb-120 pt-120 z-index">
                <div className="container">
-                  <div className="row">
+                  {/* <div className="row">
                      <div className="col-xl-12">
                         <div className="tp-service-section-wrapper mb-60 d-flex justify-content-between align-items-end">
                            <h3 className="tp-section-title tp-title-anim">{title}</h3>
@@ -36,7 +36,7 @@ const ServiceArea = () => {
                               </Link>
                         </div>
                      </div>
-                  </div>
+                  </div> */}
                   <div className="row">
 
                      <div className="col-xl-8 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
