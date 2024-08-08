@@ -113,5 +113,115 @@ const answer_question_data = [
     actice: "",
 
   }, 
+  {
+    id: 11,
+    question: "What makes DigiExpo the best choice for web development in Dubai?",
+    answer: <>At DigiExpo, we remain the most suitable web development company in Dubai. We deeply understand your vision, value proposition, target market, and objectives as a business entity.<br/> We design and develop simple yet remarkable and highly effective websites that fit your business dreams perfectly and pave the way for the future. Our services include WordPress, Laravel, PHP, CMS development, website and application maintenance, and WhatsApp integration, thus offering holistic service delivery based on your requirements.</> ,
+    accordion_id: "headingTenOne",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseTenOne",
+    aria_controls: "collapseTenOne", 
+    actice: "",
+
+  }, 
+  {
+    id: 12,
+    question: "Will my Website be Mobile-Friendly?",
+    answer: <>Yes, business owners must have a mobile-friendly website these days! We make sure that your website appears fantastic on a range of gadgets. In mobile search results, Google gives mobile-friendly websites priority over those that are not.<br/>Credibility with your customers, clients, and industry influencers is increased via mobile-friendly websites. Anyone trying to access your website on a mobile device will have a suitable experience if it is mobile-friendly, and this will encourage visitors to view you as a reliable source of information, goods, and services.</> ,
+    accordion_id: "headingTenTwo",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseTenTwo",
+    aria_controls: "collapseTenTwo", 
+    actice: "",
+
+  }, 
+  {
+    id: 13,
+    question: "What is included in your Content Creation service?",
+    answer: <>Redesigning the current website occasionally is a good idea. As a top web development company in Dubai claims that a clever yet unique website makeover would improve user experience and assist clients with occasionally new perspectives.<br/>The process comprises goal-setting, competitor analysis, redesigning approaches, search engine functionality, digital marketing practices, etc. The team of designers at DigiExpo is highly skilled and knowledgeable, and they can revamp your website so that it performs two times better than it does now.</> ,
+    accordion_id: "headingTenThree",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseTenThree",
+    aria_controls: "collapseTenThree", 
+    actice: "",
+
+  }, 
+  {
+    id: 14,
+    question: "Can DigiExpo help with updating and maintaining my existing website?",
+    answer: <>Absolutely! DigiExpo provides complete website management services to ensure your website is fast, protected against hacks and has no bugs. It means that you can safely delegate all website-related activities, such as updating the security or creating backups, to us and optimize the website to improve its performance while you can concentrate on developing your business. The intended goal is to ensure that your website is always working effectively.</> ,
+    accordion_id: "headingTenFour",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseTenFour",
+    aria_controls: "collapseTenFour", 
+    actice: "",
+
+  }, 
+  {
+    id: 15,
+    question: "What specific web development services does DigiExpo offer?",
+    answer: <>DigiExpo website development company provides clients professional web development solutions that fit their needs. Our WordPress development services enable us to assist you in making your idea a WordPress reality that, in return, will depict your business and encourage growth. Our company's Laravel development services are derived from the principles of delivering robust, reliable, and highly secure web applications in the least time, assuring higher ROI and competitive advantage. We also build custom PHP-based enterprise web portals, advanced e-commerce, and business solutions. We create powerful, customer-oriented, complex, and feature-incorporated web solutions. Furthermore, CMS development services enable our clients to have efficient solutions for their content management needs. Our WhatsApp integration services help our clients increase their sales through better customer interaction since WhatsApp is frequently used by business people worldwide.</> ,
+    accordion_id: "headingTenFive",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseTenFive",
+    aria_controls: "collapseTenFive", 
+    actice: "",
+
+  }, 
+  {
+    id: 16,
+    question: "What eCommerce platforms does DigiExpo specialize in?",
+    answer: <>DigiExpo is a premier eCommerce website development company in UAE that works on different platforms: WooCommerce, Mirakl, Magento, BigCommerce, Shopify, and Shopify Plus. We developed both platforms to cater to the diverse needs of businesses, ensuring a smooth and efficient online shopping experience.</> ,
+    accordion_id: "headingTenSix",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseTenSix",
+    aria_controls: "collapseTenSix", 
+    actice: "",
+
+  }, 
+  {
+    id: 17,
+    question: "How does DigiExpo ensure a seamless customer experience on my eCommerce website?",
+    answer: <>DigiExpo aims to develop customer-specific and generic solutions that enhance the client's experience on any device. Its unique design, easy-to-use frontends, both safe methods of payment, and powerful administration provide a solid foundation for the smooth work of your eCommerce site.</> ,
+    accordion_id: "headingTenSeven",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseTenSeven",
+    aria_controls: "collapseTenSeven", 
+    actice: "",
+
+  }, 
+  {
+    id: 18,
+    question: "What is the process for developing an eCommerce website at DigiExpo?",
+    answer: <>While developing any feature or tool, our developers go through the phases of detailed requirement assessment, design and build, third-party tool integration and configuration, and exhaustive testing before going live. Therefore, we guarantee a comprehensive approach to enhancing eCommerce websites, ensuring optimal performance and safe user engagement.</> ,
+    accordion_id: "headingTenEight",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseTenEight",
+    aria_controls: "collapseTenEight", 
+    actice: "",
+
+  }, 
+  {
+    id: 19,
+    question: "Can DigiExpo help me create a marketplace using Mirakl?",
+    answer: <>Yes, with Mirakl's advanced tool set, DigiExpo can help you establish a profitable online marketplace. We assist in reaching out to a vast pool of sellers and equally ensure rapid order processing, as well as offering a first-rate marketplace service that mostly appeals to the potential target market.</> ,
+    accordion_id: "headingTenNine",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseTenNine",
+    aria_controls: "collapseTenNine", 
+    actice: "",
+
+  }, 
+  {
+    id: 20,
+    question: "What are the benefits of using Shopify Plus with DigiExpo's development services? ",
+    answer: <>DigiExpo deals with Shopify Plus and provides services to customize and enhance its functionality, making it suitable for small businesses and high-volume merchants. We guarantee unbeatable efficiency, capacity, and protection, making your business advance wiser with a store that draws and persuades more clients.</> ,
+    accordion_id: "headingTwoZero",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseTwoZero",
+    aria_controls: "collapseTwoZero", 
+    actice: "",
+
+  }, 
 ];
 export default answer_question_data;

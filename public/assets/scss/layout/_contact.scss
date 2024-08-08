@@ -67,7 +67,7 @@
     }
     &-input-wrapper{
         background: rgba(255, 255, 255, 0.020);
-        border: 1px solid rgba(255, 255, 255, 0.12);
+        border: 1px solid rgba(255, 255, 255, 1);
         box-shadow: 0px -1px 1px rgba(15, 56, 191, 0.2), 0px 1px 1px rgba(8, 18, 79, 0.2);
         backdrop-filter: blur(20px);
         border-radius: 30px;
@@ -78,8 +78,8 @@
     }
     &-input{
         & input{
-            background: rgba(255, 255, 255, 0.08);
-            border: 2px solid rgba(255, 255, 255, 0.14);
+            background: rgba(255, 255, 255, 0.12);
+            border: 2px solid rgba(255, 255, 255, 1);
             box-shadow: 0px 1px 1px rgba(12, 40, 133, 0.2);
             border-radius: 30px;
             padding: 20px 30px;
@@ -98,8 +98,8 @@
         & textarea{
             margin-top: 20px;
             width: 100%;
-            background: rgba(255, 255, 255, 0.08);
-            border: 2px solid rgba(255, 255, 255, 0.14);
+            background: rgba(255, 255, 255, 0.12);
+            border: 2px solid rgba(255, 255, 255, 1);
             box-shadow: 0px 1px 1px rgba(12, 40, 133, 0.2);
             border-radius: 30px;
             padding: 20px 30px;
@@ -632,7 +632,7 @@
 .tp-contact-select{
     & .nice-select{
         background: rgba(255, 255, 255, 0.08);
-        border: 2px solid rgba(255, 255, 255, 0.14);
+        border: 2px solid rgba(255, 255, 255, 1);
         box-shadow: 0px 1px 1px rgba(12, 40, 133, 0.2);
         border-radius: 30px;
         padding: 0px 30px;
