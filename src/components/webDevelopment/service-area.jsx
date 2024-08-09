@@ -54,7 +54,7 @@ const ServiceArea = () => {
                     {/* <Image src={item.img} alt="theme-pure" /> */}
                     <video autoPlay muted loop width="125px">
                       <source
-                        src="/assets/img/service/smm.webm"
+                        src="/assets/img/service/discovery-planning.webm"
                         type="video/webm"
                       />
                     </video>
@@ -76,7 +76,7 @@ const ServiceArea = () => {
                     {/* <Image src={item.img} alt="theme-pure" /> */}
                     <video autoPlay muted loop width="125px">
                       <source
-                        src="/assets/img/service/smm.webm"
+                        src="/assets/img/service/development-coding.webm"
                         type="video/webm"
                       />
                     </video>
@@ -98,7 +98,7 @@ const ServiceArea = () => {
                     {/* <Image src={item.img} alt="theme-pure" /> */}
                     <video autoPlay muted loop width="125px">
                       <source
-                        src="/assets/img/service/smm.webm"
+                        src="/assets/img/service/testing-assurance.webm"
                         type="video/webm"
                       />
                     </video>
@@ -120,7 +120,7 @@ const ServiceArea = () => {
                     {/* <Image src={item.img} alt="theme-pure" /> */}
                     <video autoPlay muted loop width="125px">
                       <source
-                        src="/assets/img/service/smm.webm"
+                        src="/assets/img/service/deployment-maintenance.webm"
                         type="video/webm"
                       />
                     </video>

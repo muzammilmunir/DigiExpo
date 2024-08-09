@@ -11,7 +11,7 @@ import brand_img_5 from "../../../public/assets/img/brand/brand-inner-5.png"
 import brand_img_6 from "../../../public/assets/img/brand/brand-inner-6.png"
 import brand_img_7 from "../../../public/assets/img/brand/brand-inner-7.png"
 import brand_img_8 from "../../../public/assets/img/brand/brand-inner-8.png"
-import brand_img_9 from "../../../public/assets/img/brand/brand-inner-9.png"
+// import brand_img_9 from "../../../public/assets/img/brand/brand-inner-9.png"
 
 const brand_content = {
     titel: "Challenges We've Conquered",
@@ -26,7 +26,7 @@ const brand_content = {
         {img: brand_img_6, delay: "1s"},
         {img: brand_img_7, delay: "1.1s"},
         {img: brand_img_8, delay: "1.2s"},
-        {img: brand_img_9, delay: "1.3s"},
+        // {img: brand_img_9, delay: "1.3s"},
 
     ]
 }

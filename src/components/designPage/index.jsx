@@ -1,13 +1,13 @@
-import BreadcrumbTwo from "@/common/breadcrumbs/breadcrumb-2";
+import BreadcrumbTwoCopy from "@/common/breadcrumbs/breadcrumb-2-copy";
 import FooterFour from "@/layout/footers/footer-4";
 import React from "react";
 import Brand from "../about/brand";
-import ServiceArea from "../service/service-area";
+import ServiceArea from "./service-area";
 import ContactArea2 from "../homes/home/contact-area2";
-import ServiceArea2 from "../homes/home-2/service-area";
+import ServiceArea2 from "./service-area2";
 import ContactArea from "../homes/home/contact-area";
 import BlogArea from "../homes/home/blog-area";
-import FaqArea from "../homes/home/faq-area";
+import FaqArea from "./faq-area";
 import TestimonialArea from "../homes/home/testimonial-area";
 import ProjectArea from "../homes/home/project-area";
 import PaymentMethodArea from "../homes/home/payment-method-area";
@@ -21,7 +21,7 @@ const DesignPage = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbTwo title="Web Design" innertitle="Help Desk Service Details" />
+            <BreadcrumbTwoCopy title="Get Your Desired Business Growth with Intuitive UI/UX Design Services in Dubai" />
             <Brand />
             <ServiceArea />
             <ContactArea2 />

@@ -59,9 +59,9 @@ const ServicesArea = () => {
               <div className="tp-service__item mb-30">
                 <div className="tp-service__icon">
                   {/* <Image src={item.img} alt="theme-pure" /> */}
-                  <video autoPlay muted loop width="125px">
+                  <video autoPlay muted loop width="150px">
                     <source
-                      src="/assets/img/service/smm.webm"
+                      src="/assets/img/service/wordpress.webm"
                       type="video/webm"
                     />
                   </video>
@@ -90,9 +90,9 @@ const ServicesArea = () => {
               <div className="tp-service__item mb-30">
                 <div className="tp-service__icon">
                   {/* <Image src={item.img} alt="theme-pure" /> */}
-                  <video autoPlay muted loop width="125px">
+                  <video autoPlay muted loop width="150px">
                     <source
-                      src="/assets/img/service/smm.webm"
+                      src="/assets/img/service/laravel.webm"
                       type="video/webm"
                     />
                   </video>
@@ -123,7 +123,7 @@ const ServicesArea = () => {
                   {/* <Image src={item.img} alt="theme-pure" /> */}
                   <video autoPlay muted loop width="125px">
                     <source
-                      src="/assets/img/service/smm.webm"
+                      src="/assets/img/service/php.webm"
                       type="video/webm"
                     />
                   </video>
@@ -151,7 +151,7 @@ const ServicesArea = () => {
                   {/* <Image src={item.img} alt="theme-pure" /> */}
                   <video autoPlay muted loop width="125px">
                     <source
-                      src="/assets/img/service/smm.webm"
+                      src="/assets/img/service/cms.webm"
                       type="video/webm"
                     />
                   </video>
@@ -181,7 +181,7 @@ const ServicesArea = () => {
                   {/* <Image src={item.img} alt="theme-pure" /> */}
                   <video autoPlay muted loop width="125px">
                     <source
-                      src="/assets/img/service/smm.webm"
+                      src="/assets/img/service/maintenance.webm"
                       type="video/webm"
                     />
                   </video>
@@ -214,7 +214,7 @@ const ServicesArea = () => {
                   {/* <Image src={item.img} alt="theme-pure" /> */}
                   <video autoPlay muted loop width="125px">
                     <source
-                      src="/assets/img/service/smm.webm"
+                      src="/assets/img/service/whatsapp.webm"
                       type="video/webm"
                     />
                   </video>

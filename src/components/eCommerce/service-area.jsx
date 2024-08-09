@@ -60,9 +60,9 @@ const ServiceArea = () => {
                         <div className="col-xl-4 col-lg-6 col-md-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div className="tp-service-sm-item mb-30 d-flex flex-column justify-content-between">
                            <div className="tp-service-sm-icon">
-                           <video autoPlay muted loop width="125px">
+                           <video autoPlay muted loop width="100px">
                       <source
-                        src="/assets/img/service/smm.webm"
+                        src="/assets/img/service/woocommerce.webm"
                         type="video/webm"
                       />
                     </video>
@@ -81,7 +81,7 @@ const ServiceArea = () => {
                            <div className="tp-service-sm-icon">
                            <video autoPlay muted loop width="125px">
                       <source
-                        src="/assets/img/service/smm.webm"
+                        src="/assets/img/service/mirakl.webm"
                         type="video/webm"
                       />
                     </video>
@@ -100,7 +100,7 @@ const ServiceArea = () => {
                            <div className="tp-service-sm-icon">
                            <video autoPlay muted loop width="125px">
                       <source
-                        src="/assets/img/service/smm.webm"
+                        src="/assets/img/service/magento.webm"
                         type="video/webm"
                       />
                     </video>
@@ -119,7 +119,7 @@ const ServiceArea = () => {
                            <div className="tp-service-sm-icon">
                            <video autoPlay muted loop width="125px">
                       <source
-                        src="/assets/img/service/smm.webm"
+                        src="/assets/img/service/bigcommerce.webm"
                         type="video/webm"
                       />
                     </video>
@@ -138,7 +138,7 @@ const ServiceArea = () => {
                            <div className="tp-service-sm-icon">
                            <video autoPlay muted loop width="125px">
                       <source
-                        src="/assets/img/service/smm.webm"
+                        src="/assets/img/service/shopify.webm"
                         type="video/webm"
                       />
                     </video>
@@ -157,7 +157,7 @@ const ServiceArea = () => {
                            <div className="tp-service-sm-icon">
                            <video autoPlay muted loop width="125px">
                       <source
-                        src="/assets/img/service/smm.webm"
+                        src="/assets/img/service/shopify-plus.webm"
                         type="video/webm"
                       />
                     </video>
