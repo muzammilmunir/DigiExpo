@@ -70,7 +70,13 @@ const HeroArea = () => {
                            <span className="redius-shape-3"></span>
                         </div>
                         <div className="tp-hero-3-main-thumb z-index-5">
-                           <Image src={img_1} alt="them-pure" />
+                           {/* <Image src={img_1} alt="them-pure" /> */}
+                           <video autoPlay muted loop width="">
+                              <source
+                                 src="/assets/img/hero/web-banner.webm"
+                                 type="video/webm"
+                              />
+                           </video>
                         </div>
                         <div className="tp-hero-3-shape-5 d-none d-lg-block wow frist-img animated">
                            <Image src={img_2} alt="them-pure" />
