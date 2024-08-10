@@ -56,6 +56,15 @@
         }
     }
 }
+
+.header-top__link.tp-team-social a:hover{
+    background-color: transparent;
+}
+
+.header-top__link.tp-team-social a{
+    margin-right: 5px;
+}
+
 .header__space{
     @media #{$md,$xs}{
         padding: 15px 0;

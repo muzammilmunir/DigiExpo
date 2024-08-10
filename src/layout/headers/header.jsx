@@ -11,6 +11,9 @@ import Image from 'next/image';
 
 import logo from "../../../public/assets/img/logo/logo-black.png"
 import mainLogo from "../../../public/assets/img/logo/mainlogo.png"
+import { SocialLinks, SocialLinksTwo } from '@/common/social-links';
+import PhoneFour from '@/svg/phone-4';
+import WhatsappIcon from '@/svg/whatsapp-icon';
 
 const Header = () => {
 
@@ -42,21 +45,15 @@ const Header = () => {
                <div className="header-top__area header-top__space z-index-3 d-none d-md-block tp-header-top-animation" 
                ref={el => header_top_animation = el} >
                   <div className="container">
-                     <div className="row align-items-start">
+                     <div className="row align-items-center">
                         <div className="col-6">
-                           <div className="header-top__link">
-                              <span>Offer <i>is going on till Friday, $2.99/mo. </i></span>
-                              <Link href="#">
-                                 <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.40918 9L5.591 5L1.40918 1" stroke="white" strokeWidth="1.5"
-                                       strokeLinecap="round" strokeLinejoin="round"/>
-                                 </svg>
-                              </Link>
+                           <div className="header-top__link tp-team-social">
+                              <SocialLinksTwo />
                            </div>
                         </div>
                         <div className="col-6">
                            <div className="header-top__support text-end">
-                              <span>Get Support: <Link href="tel:806(000)88899">+806 (000) 888 99</Link></span>
+                              <span>Speak to an Expert: <Link href="tel:97142421375">+971 502 230 715</Link></span>
                            </div>
                         </div>
                      </div>
@@ -82,18 +79,20 @@ const Header = () => {
                         <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6">
                            <div className="header-bottom__right d-flex align-items-center justify-content-end">
                               <div className="header-bottom__action">
-                                 <a className="d-none d-md-inline-block search-open-btn"
+                                 {/* <a className="d-none d-md-inline-block search-open-btn"
                                     onClick={() => setSearchOpen(true)} > 
                                     <SearchIconTwo />
-                                 </a>
+                                 </a> */}
+                                 <Link className="d-none d-lg-inline-block" href="/register">
+                                    <PhoneFour /> 
+                                 </Link>
                                  <Link className="d-none d-lg-inline-block last-child" href="/register">
-                                    <UserIcon /> 
-                                    <span>Log In</span>
+                                    <WhatsappIcon /> 
                                  </Link>
                               </div>
                               <div className="header-bottom__btn d-flex align-items-center">
                                  <Link className="tp-btn-white tp-btn-hover alt-color-black d-none d-md-inline-block" href="/service-details">
-                                    <span className="white-text">Get Started</span>
+                                    <span className="white-text">Let's Talk</span>
                                     <b></b>
                                  </Link>
                                  <a className="header-bottom__bar d-lg-none tp-menu-bar" onClick={() => setSidebarOpen(true)}><i className="fal fa-bars"></i></a>

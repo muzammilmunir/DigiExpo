@@ -49,7 +49,7 @@ export default SocialLinks;
 
 
 const copy_right_text = {
-  copy_right: <>Full Copyright By Future wave LLC - {new Date().getFullYear()}</>,
+  copy_right: <>© {new Date().getFullYear()} FutureWave LLC. All Rights Reserved</>,
 }
 const {copy_right}  = copy_right_text
 

@@ -702,7 +702,7 @@
     & .tp-footer__content{
         & ul{
             & li{
-                width: 50%;
+                width: 100%;
                 float: left;
                 & a{
                     font-weight: 500;
@@ -713,7 +713,7 @@
                         font-size: 15px;
                     }
                     &:hover{
-                        color: var(--tp-common-yellow-3);
+                        color: var(--tp-common-blue);
                     }
                 }
             }
