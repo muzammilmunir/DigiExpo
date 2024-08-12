@@ -7,6 +7,10 @@ import NavMenu from './nav-menu';
 
 import white_logo from "../../../public/assets/img/logo/mainlogo-white.png"
 import black_logo from "../../../public/assets/img/logo/mainlogo.png" 
+import PhoneFour from '@/svg/phone-4';
+import WhatsappIcon from '@/svg/whatsapp-icon';
+import PhoneFourWhite from '@/svg/phone-4-white';
+import WhatsappIconWhite from '@/svg/whatsapp-icon-white';
 
 const hero_content = {
     login_btn: "Login",
@@ -25,26 +29,40 @@ const HeaderTwo = () => {
                <div id="header-sticky" className={`"tp-header-2__area header-sticky-bg-2 tp-header-2__transparent tp-header-2__plr z-index-3 ${sticky && "header-sticky"}`}>
                   <div className="container-fluid g-0">
                      <div className="row g-0 align-items-center">
-                        <div className="col-xl-2 col-lg-2 col-md-6 col-6">
+                        <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
                            <div className="tp-header-2__logo">
                               <Link className="white-logo" href="/"><Image src={white_logo} alt="theme-pure" /></Link>
                               <Link className="black-logo" href="/"><Image src={black_logo} alt="theme-pure" /></Link>
                            </div>
                         </div>
-                        <div className="col-xl-7 col-lg-7 d-none d-lg-block">
+                        <div className="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block">
                            <div className="tp-header-2__main-menu text-center">
                               <nav id="mobile-menu">
                                  <NavMenu /> 
                               </nav>
                            </div>
                         </div>
-                        <div className="col-xl-3 col-lg-3 col-md-6 col-6">
+                        <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6">
                            <div className="tp-header-2__right d-flex align-items-center justify-content-end">
-                              <Link className="tp-header-2__login d-none d-md-block" href="/register">{login_btn}</Link>
-                              <Link className="tp-btn-white tp-btn-hover alt-color-black d-none d-md-block" href="/sign-in"><span className='white-text'>{sign_up_btn}</span><b></b></Link>
-                              <a className="header-bottom__bar tp-menu-bar d-lg-none" 
-                              onClick={() => setSidebarOpen(true)}
-                              ><i className="fal fa-bars"></i></a>
+                           <div className="header-bottom__action">
+                                 {/* <a className="d-none d-md-inline-block search-open-btn"
+                                    onClick={() => setSearchOpen(true)} > 
+                                    <SearchIconTwo />
+                                 </a> */}
+                                 <Link className="d-none d-lg-inline-block" href="tel:+971501435647">
+                                 {sticky ? <PhoneFour /> :<PhoneFourWhite /> }
+                                 </Link>
+                                 <Link className="d-none d-lg-inline-block last-child" href="https://wa.me/971501435647?text=Hello%20DigiExpo!%20%F0%9F%91%8B">
+                                 {sticky ? <WhatsappIcon /> :<WhatsappIconWhite /> }
+                                 </Link>
+                              </div>
+                              <div className="header-bottom__btn d-flex align-items-center">
+                                 <Link className="tp-btn-white tp-btn-hover alt-color-black d-none d-md-inline-block" href="/service-details">
+                                    <span className="white-text">Let's Talk</span>
+                                    <b></b>
+                                 </Link>
+                                 <a className="header-bottom__bar d-lg-none tp-menu-bar" onClick={() => setSidebarOpen(true)}><i className="fal fa-bars"></i></a>
+                              </div>
                            </div>
                         </div>
                      </div>

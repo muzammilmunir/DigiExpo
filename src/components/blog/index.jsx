@@ -5,12 +5,14 @@ import React from "react";
 import CtaArea from "../contact/cta-area";
 import BlogGrid from "./blog-grid";
 import Portfolio from "./portfolio";
+import StickyIcons from "@/common/sticky-icons";
 
 const Blog = () => {
   return (
     <>
       <HeaderSix />
       <main>
+        <StickyIcons/>
         <BreadcrumbTwo title={"Read our blogs"} innertitle={"Blog Grid Classic"} />
         <BlogGrid />
         <Portfolio />

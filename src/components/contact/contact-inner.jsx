@@ -16,20 +16,20 @@ const inner_content = {
     {
       id: 1,
       icon: icon_1,
-      title: "contact@softuch.com",
-      link: "mailto:contact@softuch.com",
+      title: "info@digiexpo.ae",
+      link: "mailto:info@digiexpo.ae",
     },
     {
       id: 2,
       icon: icon_2,
-      title: "+1-202-555-0144",
-      link: "tel:+1-202-555-0144",
+      title: "+971-501-435-647",
+      link: "tel:+971501435647",
     },
     {
       id: 3,
       icon: icon_3,
-      title: "35Park Avenue, Uk",
-      link: "https://www.google.com.bd/maps/@23.7806365,90.4193257,12z",
+      title: "Ontario Tower - Office no 1801, Business Bay Dubai",
+      link: "https://maps.app.goo.gl/p2i4aHosuNqXx5Un6",
     },
   ],
 };

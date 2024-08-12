@@ -53,7 +53,7 @@ const Header = () => {
                         </div>
                         <div className="col-6">
                            <div className="header-top__support text-end">
-                              <span>Speak to an Expert: <Link href="tel:97142421375">+971 502 230 715</Link></span>
+                              <span>Speak to an Expert: <Link href="tel:+971501435647">+971 501 435 647</Link></span>
                            </div>
                         </div>
                      </div>
@@ -83,10 +83,10 @@ const Header = () => {
                                     onClick={() => setSearchOpen(true)} > 
                                     <SearchIconTwo />
                                  </a> */}
-                                 <Link className="d-none d-lg-inline-block" href="/register">
+                                 <Link className="d-none d-lg-inline-block" href="tel:+971501435647">
                                     <PhoneFour /> 
                                  </Link>
-                                 <Link className="d-none d-lg-inline-block last-child" href="/register">
+                                 <Link className="d-none d-lg-inline-block last-child" href="https://wa.me/971501435647?text=Hello%20DigiExpo!%20%F0%9F%91%8B">
                                     <WhatsappIcon /> 
                                  </Link>
                               </div>

@@ -13,6 +13,7 @@ import ContactArea2 from "../homes/home/contact-area2";
 import ServiceArea from "./service-area";
 import ServiceArea2 from "./service-area2";
 import HeaderSix from "@/layout/headers/header-6";
+import StickyIcons from "@/common/sticky-icons";
 
 const Ecommerce = () => {
   return (
@@ -21,6 +22,7 @@ const Ecommerce = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
+            <StickyIcons/>
             <HeroArea />
             <Brand />
             <ServiceArea />

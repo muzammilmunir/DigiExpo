@@ -7,6 +7,8 @@ import Image from 'next/image';
 
 
 import logo from "../../../public/assets/img/logo/mainlogo.png"
+import PhoneFour from '@/svg/phone-4';
+import WhatsappIcon from '@/svg/whatsapp-icon';
 
 const HeaderThree = () => {
 
@@ -24,23 +26,30 @@ const HeaderThree = () => {
                            <Link href="/"><Image src={logo} alt="" /></Link>
                         </div>
                      </div>
-                     <div className="col-xxl-6 col-xl-6 col-lg-6 d-none d-lg-block">
+                     <div className="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block">
                         <div className="header-bottom__main-menu header-bottom__main-menu-3">
                            <nav id="mobile-menu">
                               <NavMenu /> 
                            </nav>
                         </div>
                      </div>
-                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-8 col-6">
+                     <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6">
                         <div className="header-bottom__right d-flex align-items-center justify-content-end">
                            <div className="header-bottom__action">
-                              <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/register">
-                                 <span>Log In</span>
-                              </Link>
+                              {/* <a className="d-none d-md-inline-block search-open-btn"
+                                    onClick={() => setSearchOpen(true)} > 
+                                    <SearchIconTwo />
+                                 </a> */}
+                                 <Link className="d-none d-lg-inline-block" href="tel:+971501435647">
+                                    <PhoneFour /> 
+                                 </Link>
+                                 <Link className="d-none d-lg-inline-block last-child" href="https://wa.me/971501435647?text=Hello%20DigiExpo!%20%F0%9F%91%8B">
+                                    <WhatsappIcon /> 
+                                 </Link>
                            </div>
                            <div className="header-bottom__btn d-flex align-items-center">
                               <Link className="tp-btn d-none d-md-inline-block tp-btn-hover alt-color-black" href="/service-details">
-                                 <span>Get Free</span>
+                                 <span>Let's Talk</span>
                                  <b></b>
                               </Link>
                               <a className="header-bottom__bar tp-menu-bar d-lg-none" onClick={()  => setSidebarOpen(true)}><i className="fal fa-bars"></i></a>

@@ -9,7 +9,7 @@ import Wrapper from "../layout/wrapper";
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Softec - Data analytics"} />
+      <SEO pageTitle={"Digital marketing agency dubai | Digital marketing agency UAE"} pageDesc={"Looking for a Digital marketing agency UAE? DigiExpo, the best marketing agency Dubai offers top-notch services to enhance your business and drive sales."}/>
       <HomeOne />
     </Wrapper>
   );

@@ -57,6 +57,29 @@
     }
 }
 
+.sticky-icons {
+    position: fixed;
+    bottom: 5%;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 0;
+    z-index: 999999;
+}
+
+.sticky-icons a{
+    background-color: #7037E4;
+    padding: 0.4rem;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    outline:1px solid #FFF;
+}
+
+.sticky-icons a svg{
+    fill: #fff;
+}
+
 .header-top__link.tp-team-social a:hover{
     background-color: transparent;
 }

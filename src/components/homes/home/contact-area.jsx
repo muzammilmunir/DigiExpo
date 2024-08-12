@@ -12,9 +12,9 @@ import NiceSelect from '@/ui/nice-select';
 const contact_content = {
     sub_title: "CONTACT US",
     title: "Request Free Consultancy",
-    phone: "(+806)0008899",
-    email: "contact@info.com",
-    location: <>1811 Silverside Rd, Wilmington, DE 19810, USA</>,
+    phone: "(+971) 502230715",
+    email: "Info@digiexpo.ae",
+    location: <>Ontario Tower - Office no 1801 - 18th Floor <br/> Business Bay - Dubai - United Arab Emirates</>,
 }
 const {sub_title, title , phone, email, location}  = contact_content
 

@@ -323,5 +323,60 @@ const answer_question_data = [
     actice: "",
 
   }, 
+  {
+    id: 30,
+    question: "What types of emerging technologies does DigiExpo specialize in?",
+    answer: <>DigiExpo, the best Emerging Tech Development in Dubai focuses on a wide variety of exalting technologies, such as Artificial Intelligence, Augmented Reality, Metaverse creation, 3D projection, IoT creation, and Gesture-Based services.</> ,
+    accordion_id: "headingThreeZero",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseThreeZero",
+    aria_controls: "collapseThreeZero", 
+    actice: "",
+
+  }, 
+  {
+    id: 31,
+    question: "How does DigiExpo ensure the quality of its technological solutions?",
+    answer: <>DigiExpo, leading Emerging Technologies Development Company in UAE methodology consists of efficiently planning, designing, researching, testing, and evaluating all proposed solutions to increase their quality, security, and reliability.</> ,
+    accordion_id: "headingThreeOne",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseThreeOne",
+    aria_controls: "collapseThreeOne", 
+    actice: "",
+
+  }, 
+  {
+    id: 32,
+    question: "Can DigiExpo help with integrating AI into my business operations?",
+    answer: <>Yes, DigiExpo is proficient with AI development, and the firm can support you in incorporating AI solutions into your organizational procedures to improve working progress, projections, and digital transformation.</> ,
+    accordion_id: "headingThreeTwo",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseThreeTwo",
+    aria_controls: "collapseThreeTwo", 
+    actice: "",
+
+  }, 
+  {
+    id: 33,
+    question: "What is the process for developing a custom Metaverse project with DigiExpo?",
+    answer: <>DigiExpo's Metaverse development process involves close collaboration with clients to understand their vision, followed by strategic planning, innovative prototyping, and meticulous development to create a metaverse that bridges the gap between imagination and reality.</> ,
+    accordion_id: "headingThreeThree",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseThreeThree",
+    aria_controls: "collapseThreeThree", 
+    actice: "",
+
+  }, 
+  {
+    id: 34,
+    question: "Does DigiExpo offer ongoing support after the launch of a project?",
+    answer: <>Yes, DigiExpo, leading Emerging tech company Dubai, UAE, provides ongoing monitoring, performance evaluation, and support after the launch of a project to ensure its continued success and to make any necessary adjustments or updates.</> ,
+    accordion_id: "headingThreeFour",
+    collapsed: "collapsed",
+    data_bs_target: "#collapseThreeFour",
+    aria_controls: "collapseThreeFour", 
+    actice: "",
+
+  }, 
 ];
 export default answer_question_data;
