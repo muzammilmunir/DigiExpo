@@ -160,7 +160,7 @@ const HeroSlider = () => {
 										</div>
 									))}
 									<div>
-										<div className="tp-hero__thumb-wrapper d-none d-md-block p-relative">
+										<div className="tp-hero__thumb-wrapper p-relative">
 											<div className="row">
 												{/* <div className="col-8">
 													<div className="tp-hero__thumb-box">

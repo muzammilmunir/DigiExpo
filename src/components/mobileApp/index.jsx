@@ -5,7 +5,7 @@ import Brand from "../about/brand";
 import ServicesArea from "./services-area";
 import ContactArea2 from "../homes/home/contact-area2";
 import FeatureArea from "./feature-area";
-import CounterArea from "../homes/home-3/counter-area";
+import CounterArea from "./counter-area";
 import PaymentMethodArea from "../homes/home/payment-method-area";
 import ProjectArea from "../homes/home/project-area";
 import FaqArea from "./faq-area";

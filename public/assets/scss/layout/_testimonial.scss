@@ -466,6 +466,13 @@
         }
     }
 }
+
+.tp-testimonial-3-mlr .tp-testimonial-3-bg{
+    @media #{$xs}{
+       border-radius: 0px;
+    }
+}
+
 .tp-test-arrow{
     z-index: 3;
     & button{

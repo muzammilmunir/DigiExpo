@@ -7,7 +7,7 @@ import React from 'react';
 const service_content = {
     bg_img: "/assets/img/service/service-5-1-bg.png",
     sub_title: "What we Offer",
-    title: <>Grow Your Business<br/ >Through Our<br /><span>Spectrum Of</span> <br /> <span>Services</span> </>,
+    title: <>Grow Your Business<br/ >Through Our <br /><span>Spectrum Of</span> <br /> <span>Services</span> </>,
     description: <>From concept to conversion, <br />We are your digital growth engine.</>,
     btn_text: "All Services",
 }

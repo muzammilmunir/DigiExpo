@@ -13,7 +13,7 @@ import about_img_5 from "../../public/assets/img/about/about-5.png"
 const about_data =[
     {
         id: 1, 
-        cls: "bg-shape",
+        cls: "bg-shape d-none d-lg-block",
         img: about_img_1
     },
     {

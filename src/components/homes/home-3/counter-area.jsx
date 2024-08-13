@@ -22,10 +22,10 @@ const CounterArea = () => {
           <div className="tp-counter-shape-2">
             <Image src={counter_shape_1} alt="theme-pure" />
           </div>
-          <div className="tp-counter-shape-3">
+          <div className="tp-counter-shape-3 d-none d-sm-block">
             <Image src={counter_shape_2} alt="theme-pure" />
           </div>
-          <div className="tp-counter-shape-4 d-none d-sm-block">
+          <div className="tp-counter-shape-4 ">
             <Image src={counter_shape_3} alt="theme-pure" />
           </div>
           <div className="container">

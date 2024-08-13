@@ -60,7 +60,7 @@ const HeaderFive = () => {
                   </div>
                   <div className="header-bottom__btn d-flex align-items-center">
                     <Link
-                      className="tp-btn tp-btn-hover alt-color-black"
+                      className="tp-btn tp-btn-hover alt-color-black d-none d-md-inline-block"
                       href="/register"
                     >
                       <span>Get Started</span>

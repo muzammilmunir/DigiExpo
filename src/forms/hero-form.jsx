@@ -11,7 +11,7 @@ const HeroForm = () => {
          <EmailIcon />
         </div>
         <button className="tp-btn tp-btn-hover alt-color-black">
-          <span>Get A Demo</span>
+          <span>Get In Touch</span>
           <b></b>
         </button>
       </form>

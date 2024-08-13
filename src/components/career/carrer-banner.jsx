@@ -30,7 +30,7 @@ const CarrerBanner = () => {
                 <Image src={img_1} alt="theme-pure" />
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6">
+            <div className="col-xl-6 col-lg-6 col-md-6 d-none d-lg-block">
               <div className="carrer-banner-img-item parallax-main">
                 <Image
                   className="parallax-img"

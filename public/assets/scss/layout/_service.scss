@@ -117,6 +117,7 @@
     z-index: -1;
   }
 }
+
 .tp-service-2 {
   &__section-box {
     @media #{$xs} {
@@ -440,6 +441,9 @@
 
       &.ecomm {
         font-size: 13px;
+        @media #{$xs} {
+          font-size: 11px;
+        }
       }
     }
   }
@@ -536,6 +540,18 @@
         }
       }
     }
+  }
+}
+
+.tp-service-sm-item{
+  @media #{$xs} {
+    padding: 30px;
+  }
+}
+
+.tp-service-sm-content span{
+  @media #{$xs} {
+    font-size: 13px;
   }
 }
 
@@ -770,7 +786,7 @@
     }
     @media #{$xs} {
       padding-left: 30px;
-      padding-right: 0px;
+      padding-right: 30px;
       padding-top: 40px;
       padding-bottom: 40px;
       text-align: center;
