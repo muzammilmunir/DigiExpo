@@ -6,14 +6,14 @@ import Portfolio from "./portfolio";
 import PostboxArea from "./postbox-area";
 import FooterFour from "@/layout/footers/footer-4";
 
-const Blog1 = () => {
+const SocialMediaMarketingBlog = () => {
   return (
     <>
       <HeaderSix />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbSix sub_title="Digital Marketing" title="Boost Your ROI: Proven Digital Marketing Tactics for UAE Businesses" />
+            <BreadcrumbSix sub_title="Social Media Marketing" title="How to Dominate the UAE Market with Effective Social Media Strategies" />
             <Banner />
             <PostboxArea />
             <Portfolio />
@@ -25,4 +25,4 @@ const Blog1 = () => {
   );
 };
 
-export default Blog1;
+export default SocialMediaMarketingBlog;

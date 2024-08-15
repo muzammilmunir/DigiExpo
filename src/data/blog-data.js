@@ -49,12 +49,11 @@ const blog_data = [
     {
         id: 4, 
         img: img_4,
-        category: "Blog",
+        category: " Digital Marketing",
         color: "",
-        date: "10 min",
-        title: <>Building for the real world</>,
-        description: <>How friends from college went on to build one powerful
-        platform (hint: it was ours).</>,
+        date: "",
+        title: <>Boost Your ROI: Proven Digital Marketing Tactics for UAE Businesses</>,
+        description: <>With increased competition in today's market, especially in the UAE. It has become essential for business practitioners to partner with the best digital marketing agency in UAE.</>,
         author_img: author_img_3,
         author_name: "Penny Tool",
         job_title: "Founder & CEO Dulalix"
@@ -62,12 +61,11 @@ const blog_data = [
     {
         id: 5, 
         img: img_5,
-        category: "Blog",
+        category: "Social Media Marketing",
         color: "",
-        date: "24 min",
-        title: <>High Returns on Investment</>,
-        description: <>How friends from college went on to build one powerful
-        platform (hint: it was ours).</>,
+        date: "",
+        title: <>How to Dominate the UAE Market with Effective Social Media Strategies</>,
+        description: <>The United Arab Emirates (UAE) is a fast-developing market with great potential. It is a well-organized country with people of different origins and one of the developed economies.</>,
         author_img: author_img_3,
         author_name: "Penny Tool",
         job_title: "Founder & CEO Dulalix"
