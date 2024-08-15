@@ -142,7 +142,7 @@ const RankArea = () => {
                            </Link>
                         </div>
                      </div>
-                     <div className="col-xl-7 col-lg-7 order-0 order-lg-2">
+                     <div className="col-xl-7 col-lg-7 order-2 order-lg-2">
                         <div className="tp-rank__wrapper p-relative">
 
                             {circle_shape.map((item, i )  => 
@@ -155,7 +155,7 @@ const RankArea = () => {
                                 
                              )}
 
-                           <div className="tp-rank__bg-shape">
+                           <div className="tp-rank__bg-shape d-none d-sm-block">
                               <Image className="wow tpfadeRight" 
                               data-wow-duration=".9s" 
                               data-wow-delay="1.2s" 

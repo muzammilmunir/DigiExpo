@@ -7,16 +7,16 @@ import img_2 from "../../../public/assets/img/breadcrumb/breadcrumb-shape-2.png"
 import img_3 from "../../../public/assets/img/blog/blog-avata-1.png";
 
 
-const breadcrumb_content = {
-    sub_title: "Resources",
-    title: "Developing Privacy User Centric Apps",
-    author_name: "Rudra Ghosh",
-    author_info: "CEO Dulalix  •   April 24, 2022",
+// const breadcrumb_content = {
+//     sub_title: "Digital Marketing",
+//     title: "Developing Privacy User Centric Apps",
+//     author_name: "Rudra Ghosh",
+//     author_info: "CEO Dulalix  •   April 24, 2022",
 
-}
-const {sub_title, title, author_name, author_info}  = breadcrumb_content
+// }
+// const {sub_title, title, author_name, author_info}  = breadcrumb_content
 
-const BreadcrumbSix = () => {
+const BreadcrumbSix = ({sub_title , title}) => {
     return (
         <>
             <div className="breadcrumb__area breadcrumb-ptb-4 p-relative blue-bg-2">
@@ -34,7 +34,7 @@ const BreadcrumbSix = () => {
                            <span>{sub_title}</span>
                            <h3 className="blog-details-banner-title">{title}</h3>
                         </div>
-                        <div className="tp-blog-author-info-box d-flex align-items-center">
+                        {/* <div className="tp-blog-author-info-box d-flex align-items-center">
                            <div className="tp-blog-avata">
                               <Image src={img_3} alt="theme-pure" />
                            </div>
@@ -42,7 +42,7 @@ const BreadcrumbSix = () => {
                               <h5>{author_name}</h5>
                               <span>{author_info}</span>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                   <div className="col-xl-3 col-lg-3 col-md-3">
