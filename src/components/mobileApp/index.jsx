@@ -15,6 +15,7 @@ import TestimonialArea from "../homes/home/testimonial-area";
 import AboutArea from "../homes/home/about-area";
 import HeaderTwo from "@/layout/headers/header-2";
 import StickyIcons from "@/common/sticky-icons";
+import StickyButtons from "@/common/sticky-buttons";
 
 const MobileApp = () => {
   return (
@@ -24,6 +25,7 @@ const MobileApp = () => {
         <div id="smooth-content">
           <main className="fix">
             <StickyIcons/>
+            {/* <StickyButtons/> */}
             <HeroArea />
             <Brand/>
             <ServicesArea />

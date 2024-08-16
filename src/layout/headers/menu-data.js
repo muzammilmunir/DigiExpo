@@ -68,7 +68,7 @@ const menu_data = [
   {
     id: 3,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     title: "Case Studies",
     link: "#",
     active: "",

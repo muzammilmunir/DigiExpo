@@ -16,6 +16,7 @@ import Brand from "../../about/brand";
 import FooterFour from "@/layout/footers/footer-4";
 import ContactArea2 from "./contact-area2";
 import StickyIcons from "@/common/sticky-icons";
+import StickyButtons from "@/common/sticky-buttons";
 
 const HomeOne = () => {
 	return (
@@ -25,6 +26,7 @@ const HomeOne = () => {
 				<div id="smooth-content">
 					<main className="fix">
 						<StickyIcons/>
+						<StickyButtons/>
 						<HeroSlider />
 						<Brand />
 						<ServiceArea />
