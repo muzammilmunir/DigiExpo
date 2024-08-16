@@ -8,6 +8,7 @@ import React from 'react';
 import contact_img from "../../../../public/assets/img/hero/hero-4-3.png"
 import shape_1 from "../../../../public/assets/img/contact/shape-4-1.png"
 import NiceSelect from '@/ui/nice-select';
+import ContactUsForm from '@/forms/contact-us-form';
 
 const contact_content = {
     sub_title: "CONTACT US",
@@ -58,7 +59,7 @@ const ContactArea = () => {
                            <div className="tp-contact-shape">
                               <Image src={shape_1} alt="theme-pure" />
                            </div>
-                           <div className="row">
+                           {/* <div className="row">
                               <div className="col-xl-6">
                                  <div className="tp-contact-input mb-20">
                                     <input type="text" placeholder="Full name"  required/>
@@ -95,7 +96,8 @@ const ContactArea = () => {
                                     <button type="submit" className="tp-btn-yellow-lg w-100">Get a free consultation</button>
                                  </div>
                               </div>
-                           </div>
+                           </div> */}
+                           <ContactUsForm/>
                         </div>
                      </div>
                   </div>
