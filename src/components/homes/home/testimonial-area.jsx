@@ -1,10 +1,14 @@
 import React, {useRef} from 'react';
 import Slider from 'react-slick';
 
-import testimonial_img_1 from "../../../../public/assets/img/testimonial/testi-3-2.png"
-import testimonial_img_2 from "../../../../public/assets/img/testimonial/testi-3-3.png"
-import testimonial_img_3 from "../../../../public/assets/img/testimonial/testi-3-4.png"
-import testimonial_img_4 from "../../../../public/assets/img/testimonial/testi-3-5.png"
+import HyggeBikes from "../../../../public/assets/img/testimonial/hygge.png"
+import HomesPerception from "../../../../public/assets/img/testimonial/homes.png"
+import VoroMotors from "../../../../public/assets/img/testimonial/VM.png"
+import LivPure from "../../../../public/assets/img/testimonial/livpure.png"
+import BloomingScholars from "../../../../public/assets/img/testimonial/blooming.png"
+import Ronin from "../../../../public/assets/img/testimonial/ronin.png"
+import BakAccounting from "../../../../public/assets/img/testimonial/bak.png"
+import FZConsultancy from "../../../../public/assets/img/testimonial/fz.png"
 import Image from 'next/image';
 
 
@@ -55,46 +59,66 @@ const settings = {
 const testimonial_data = [
     {
         id: 1, 
-        img: testimonial_img_1, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
-        from our sales and customer support 
-        teams using close. Even our co-
-        founders are very happy.</>,
+        img: HyggeBikes, 
+        name: "Danish Ahsan",
+        job_title: "Hygge Bikes",
+        description: <>Working with Digi Expo has been a game-changer for our sales and marketing. Their team really understands our brand and has helped us connect with more customers than ever before.</>,
 
     },
     {
         id: 2, 
-        img: testimonial_img_2, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
-        from our sales and customer support 
-        teams using close. Even our co-
-        founders are very happy.</>,
+        img: HomesPerception, 
+        name: "Nabeel",
+        job_title: "Homes Perception",
+        description: <>Digi Expo really took our sales and marketing to the next level. They understood what we needed and delivered results that truly made a difference for our business.</>,
 
     },
     {
         id: 3, 
-        img: testimonial_img_3, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>“Softuch helps me keep a clean,
-        organized ledger that I can access
-        anywhere. The UI is so intuitive that
-        anyone can use it,</>,
+        img: VoroMotors, 
+        name: "Alexander Wright",
+        job_title: "Voro Motors",
+        description: <>Digi Expo did an amazing job revamping our website and boosting our sales. Their work has made a noticeable difference in how our brand is perceived online.</>,
 
     },
     {
         id: 4, 
-        img: testimonial_img_4, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
-        from our sales and customer support 
-        teams using close. Even our co-
-        founders are very happy.</>,
+        img: LivPure, 
+        name: "Zuhaib Ali",
+        job_title: "Liv Pure",
+        description: <>Digi Expo has been incredible in managing our website, social media, and paid marketing. We've seen a big increase in our online presence and customer engagement thanks to their efforts.</>,
+
+    },
+    {
+        id: 5, 
+        img: BloomingScholars, 
+        name: "Irfan Khan",
+        job_title: "Blooming Scholars",
+        description: <>Partnering with Digi Expo for our social media and website was one of the best decisions we made. Their team is responsive, creative, and has significantly improved our online visibility.</>,
+
+    },
+    {
+        id: 6, 
+        img: Ronin, 
+        name: "Jahangir Munawar",
+        job_title: "Ronin",
+        description: <>Digi Expo has been great with our website development and maintenance. They’re always on top of things, ensuring everything runs smoothly, which gives us peace of mind.</>,
+
+    },
+    {
+        id: 7, 
+        img: BakAccounting, 
+        name: "Zubair Haseeb",
+        job_title: "Bak Accounting",
+        description: <>Digi Expo has been a huge help in boosting our sales and marketing. Their insights and strategies have really helped us grow and reach more clients.</>,
+
+    },
+    {
+        id: 8, 
+        img: FZConsultancy, 
+        name: "Malik Farukh",
+        job_title: "FZ Consultancy",
+        description: <>Digi Expo has done a fantastic job managing our social media. They've helped us engage with our audience more effectively and build a stronger online presence.</>,
 
     },
 ]
