@@ -9,6 +9,7 @@ import contact_img from "../../../../public/assets/img/hero/hero-4-3.png"
 import shape_1 from "../../../../public/assets/img/contact/shape-4-1.png"
 import NiceSelect from '@/ui/nice-select';
 import ContactUsForm from '@/forms/contact-us-form';
+import ContactUsFormMuz from '@/forms/contact-us-form-muz';
 
 const contact_content = {
     sub_title: "CONTACT US",
@@ -97,7 +98,7 @@ const ContactArea = () => {
                                  </div>
                               </div>
                            </div> */}
-                           <ContactUsForm/>
+                           <ContactUsFormMuz/>
                         </div>
                      </div>
                   </div>

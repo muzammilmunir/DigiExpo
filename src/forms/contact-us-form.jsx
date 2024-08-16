@@ -22,7 +22,7 @@ const ContactUsForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Send form data to the PHP backend
-    fetch("https://yourdomain.com/path-to-your-php-script.php", {
+    fetch("/main.php", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
