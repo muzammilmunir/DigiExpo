@@ -2,6 +2,7 @@
 /*--
     - Spacing
 -----------------------------------------*/
+@use "../utils" as *;
 
 .mt-5{
     margin-top:5px !important
@@ -965,4 +966,52 @@
 }
 .pr-200{
     padding-right:200px
+}
+
+.pt-sm-50{
+    @media #{$xs} {
+        padding-top: 50px!important;
+      }
+}
+
+.pb-sm-50 {
+    @media #{$xs} {
+        padding-bottom: 50px!important;
+    }
+}
+
+.pt-sm-0{
+    @media #{$xs} {
+        padding-top: 0px!important;
+      }
+}
+
+.pb-sm-0 {
+    @media #{$xs} {
+        padding-bottom: 0px!important;
+    }
+}
+
+.mt-sm-50{
+    @media #{$xs} {
+        margin-top: 50px!important;
+      }
+}
+
+.mb-sm-50 {
+    @media #{$xs} {
+        margin-bottom: 50px!important;
+    }
+}
+
+.mt-sm-0{
+    @media #{$xs} {
+        margin-top: 0px!important;
+      }
+}
+
+.mb-sm-0 {
+    @media #{$xs} {
+        margin-bottom: 0px!important;
+    }
 }

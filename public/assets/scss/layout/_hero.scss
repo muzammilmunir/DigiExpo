@@ -185,6 +185,7 @@
     border-radius: 20px;
     @media #{$xs} {
       margin-top: -95px;
+      padding: 0px;
     }
   }
   &__box-shadow-none {

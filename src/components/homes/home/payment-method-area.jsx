@@ -131,7 +131,7 @@ const {title, desctiption}  = payment_method_info
 const PaymentMethodArea = () => {
     return (
       <>
-        <div className="tp-payment-method__area tp-payment-method__space">
+        <div className="tp-payment-method__area tp-payment-method__space pb-sm-50 pt-sm-50">
           <div className="container-fluid g-0">
             <div className="row g-0 justify-content-center">
               <div className="col-xl-7">

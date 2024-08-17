@@ -17,7 +17,7 @@ const {title, des, integraton_title, integraton_des}  = feature_content
 const FeatureArea = ({style_integraton}) => {
     return (
         <>
-            <div className={`tp-feature-area ${style_integraton ? "pt-100 pb-30" : "grey-bg-3 pt-120 pb-110"}`}>
+            <div className={`tp-feature-area ${style_integraton ? "pt-100 pb-30 pb-sm-0 pt-sm-50" : "grey-bg-3 pt-120 pb-110"}`}>
                   <div className="container">
                      <div className="row">
                         <div className="col-12">
@@ -40,7 +40,7 @@ const FeatureArea = ({style_integraton}) => {
                            </div>
                         </div>
                      </div>
-                     <div className="row gx-0 tp-feature-five-wrapper-main">
+                     <div className="row gx-0 tp-feature-five-wrapper-main pb-sm-0">
                             <div className="col-xl-3 col-lg-6 col-md-6">
                                 <div className="tp-feature-five-wrapper">
                                     <div className={`tp-feature-five-item tp-feature-five-item-1 text-center z-index`}>
@@ -122,13 +122,13 @@ const FeatureArea = ({style_integraton}) => {
                                 </div>
                             </div>
                      </div>
-                     <div className="row">
+                     {/* <div className="row">
                         <div className="col-12">
                            <div className="tp-feature-five-link text-center">
                               <span>Check out all of our <Link href="/service-details">All features</Link></span>
                            </div>
                         </div>
-                     </div>
+                     </div> */}
                   </div>
                </div>
         </>

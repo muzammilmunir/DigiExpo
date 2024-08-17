@@ -21,7 +21,7 @@ const service_content = {
 const ServiceArea = () => {
     return (
         <>
-            <div className="tp-service-area pb-120 pt-120 z-index">
+            <div className="tp-service-area pb-120 pt-120 z-index pb-sm-50 pt-sm-50">
                <div className="container">
                   {/* <div className="row">
                      <div className="col-xl-12">

@@ -20,7 +20,7 @@ const { sub_title, title, description } = service_content;
 const ServiceArea = () => {
   return (
     <>
-      <div className="tp-service-area purple-bg p-relative pt-115 pb-105">
+      <div className="tp-service-area purple-bg p-relative pt-115 pb-105 pb-sm-0 pt-sm-0">
         <div className="tp-service-shape-right z-index">
           <Image src={img} alt="theme-pure" />
         </div>

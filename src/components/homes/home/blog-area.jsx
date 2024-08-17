@@ -12,7 +12,7 @@ const { sub_title, title } = blog_content;
 const BlogArea = () => {
   return (
     <>
-      <div className="tp-blog-area pb-90">
+      <div className="tp-blog-area pb-90 pb-sm-50">
         <div className="container">
           <div className="row align-items-end tp-blog-four-section-space">
             <div className="col-xl-6 col-lg-6">

@@ -22,7 +22,7 @@ const {sub_title, title, des, feature_1, feature_2, btn_text }  = about_content
 const AboutArea = () => {
     return (
         <>
-            <div className="tp-about-area pb-135 pt-100 purple-bg p-relative">
+            <div className="tp-about-area pb-135 pt-100 purple-bg p-relative pb-sm-50 pt-sm-50">
                <div className="tp-about-top-img-2">
                   <Image src={img_1} alt="theme-pure" />
                </div>

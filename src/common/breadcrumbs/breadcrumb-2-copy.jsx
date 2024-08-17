@@ -29,7 +29,7 @@ const BreadcrumbTwoCopy = ({ title, innertitle, team_details, career_details }) 
         <div className="container">
           <div className="row">
             <div className="col-xl-8 col-lg-7">
-              <div className="breadcrumb__content">
+              <div className="breadcrumb__content mt-sm-0">
                 <h3
                   ref={animeRef}
                   className="breadcrumb__title tp-char-animation anime_text"

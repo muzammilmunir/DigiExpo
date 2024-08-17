@@ -16,7 +16,7 @@ const {bg_img, sub_title, title, btn_text}  = business_content
 const BusinessBox = () => {
     return (
         <>
-        <div className="tp-cta-area pt-120 pb-120 mb-120 mt-120 tp-cta-five-bg p-relative" style={{backgroundImage: `url(${bg_img})`}}>
+        <div className="tp-cta-area pt-120 pb-120 mb-120 mt-120 mb-sm-50 mt-sm-0 tp-cta-five-bg p-relative" style={{backgroundImage: `url(${bg_img})`}}>
                <div className="tp-cta-five-shape-1 d-none d-md-block">
                   <Image src={shape_1} alt="theme-pure" />
                </div> 

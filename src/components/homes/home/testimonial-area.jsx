@@ -128,8 +128,8 @@ const TestimonialArea = () => {
     const sliderRef = useRef(null);
     return (
         <>
-            <div className="tp-testimonial-area tp-testimonial-3-mlr pb-110">
-               <div className="tp-testimonial-3-bg pt-110 fix" 
+            <div className="tp-testimonial-area tp-testimonial-3-mlr pb-110 pb-sm-50">
+               <div className="tp-testimonial-3-bg pt-110 fix pt-sm-50" 
                style={{backgroundImage: `url(${bg_img})`}}
                >
                   <div className="container">

@@ -92,7 +92,7 @@ const { title, des, users_data, service_data, free_tools_title, free_tools } =
 const ServiceArea2 = () => {
   return (
     <>
-      <div className="tp-service-2__area p-relative pt-70 padding-bottom">
+      <div className="tp-service-2__area p-relative pt-70 padding-bottom pb-sm-0 pt-sm-50">
         <div className="tp-service-2__shape">
           <Image src={bg_img} alt="theme-pure" />
         </div>

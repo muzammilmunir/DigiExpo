@@ -33,7 +33,7 @@ const HeroArea = () => {
 
    return (
       <>
-         <div className="tp-hero-area tp-hero-pt pt-170 pb-70 p-relative">
+         <div className="tp-hero-area tp-hero-pt pt-170 pb-70 p-relative pb-sm-0">
             <div className="tp-hero-left-shape">
                <Image src={left_shape} alt="them-pure" />
             </div>

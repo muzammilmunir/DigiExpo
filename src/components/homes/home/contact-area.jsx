@@ -24,7 +24,7 @@ const ContactArea = () => {
     const selectHandler = (e) => {};
     return (
         <>
-            <div className="tp-contact-area tp-contact-overlay pt-120 pb-120 purple-bg z-index p-relative fix">
+            <div className="tp-contact-area tp-contact-overlay pt-120 pb-120 pb-sm-50 pt-sm-50 purple-bg z-index p-relative fix">
                <div className="tp-contact-glob-img">
                   <Image src={contact_img} alt="theme-pure" />
                </div>

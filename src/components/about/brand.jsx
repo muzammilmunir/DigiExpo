@@ -38,7 +38,7 @@ const Brand = () => {
       <>
         <div className="ab-brand-area">
           <div className="container">
-            <div className="ab-brand-border-bottom pb-90 pt-150">
+            <div className="ab-brand-border-bottom pb-90 pt-150 pb-sm-50 pt-sm-50">
               <div className="row">
                 <div className="col-12">
                   <div className="ab-brand-section-box text-center mb-50">
