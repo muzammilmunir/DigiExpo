@@ -21,7 +21,7 @@ const service_content = {
 const ServiceArea = () => {
     return (
         <>
-            <div className="tp-service-area pb-120 pt-120 z-index">
+            <div className="tp-service-area pb-120 pt-120 z-index pb-sm-50 pt-sm-50">
                <div className="container">
                   {/* <div className="row">
                      <div className="col-xl-12">
@@ -153,7 +153,7 @@ const ServiceArea = () => {
                         </div>
                      </div>
                         <div className="col-xl-4 col-lg-6 col-md-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <div className="tp-service-sm-item mb-30 d-flex flex-column justify-content-between">
+                        <div className="tp-service-sm-item mb-30 d-flex flex-column justify-content-between mb-sm-0">
                            <div className="tp-service-sm-icon">
                            <video autoPlay muted loop width="125px">
                       <source

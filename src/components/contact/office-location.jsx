@@ -38,7 +38,7 @@ const office_data = [
 const OfficeLocation = () => {
     return (
       <>
-        <div className="contact-info-area pb-90">
+        <div className="contact-info-area pb-90 pb-sm-50">
           <div className="container">
             <div className="row justify-content-center">
               {office_data.map((item, i) => (

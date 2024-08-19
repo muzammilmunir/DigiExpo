@@ -15,7 +15,7 @@ const HeroBanner = ({ bg_img,title="Get In",subtitle="Touch" }) => {
 
     return (
         <>
-            <div className="about-img-area mb-100 z-index-3">
+            <div className="about-img-area mb-100 z-index-3 mb-sm-50">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

@@ -22,12 +22,12 @@ const menu_data = [
     link: "#",
     active: "",
     sub_menus: [
-      { link: "/digitalMarketing", title: "Digital Marketing" },
-      { link: "/webDevelopment", title: "Website Development" },
-      { link: "/designPage", title: "Design" },
-      { link: "/mobileApp", title: "Mobile Apps" },
+      { link: "/digital-marketing", title: "Digital Marketing" },
+      { link: "/website-development", title: "Website Development" },
+      { link: "/uiux-design", title: "UI / UX Design" },
+      { link: "/mobile-applications", title: "Mobile Apps" },
       { link: "/eCommerce", title: "E-Commerce" },
-      { link: "/nextGen", title: "Next Gen" },
+      { link: "/emerging-technology", title: "Emerging Technology" },
     ],
   },
   // {

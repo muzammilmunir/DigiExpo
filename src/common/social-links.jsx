@@ -67,26 +67,26 @@ export const CopyRight = ()  => {
 // home 04 social link
 const social_links_two = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/digiexpo.ae/",
     target: "_blank",
     icon: "fab fa-facebook-f",
     color: "1", 
   },
   {
-      link: "https://www.instagram.com",
+      link: "https://www.instagram.com/digiexpo_/",
       target: "_blank",
       icon: "fab fa-instagram", 
       color: "2",
   },
 
+  // {
+  //   link: "http://twitter.com",
+  //   target: "_blank",
+  //   icon: "fab fa-twitter", 
+  //   color: "3",
+  // },
   {
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter", 
-    color: "3",
-  },
-  {
-    link: "https://www.linkedin.com",
+    link: "https://www.linkedin.com/company/digiexpo-ae/ ",
     target: "_blank",
     icon: "fab fa-linkedin-in",
     color: "4", 

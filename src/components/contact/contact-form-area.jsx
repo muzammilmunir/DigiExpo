@@ -19,7 +19,7 @@ const {sub_title, tilte, info}  =  contact_content
 const ContactFormArea = () => {
     return (
         <>
-            <div className="contact-form-area pb-120">
+            <div className="contact-form-area pb-120 pb-sm-50">
                <div className="container">
                   <div className="row gx-0">
                      <div className="col-xl-5 col-lg-6">
@@ -31,10 +31,10 @@ const ContactFormArea = () => {
                            </div>
                            <div className="contact-form-social-box p-relative">
                               <div className="contact-form-social-item">
-                                 <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                                 <Link href="#"><i className="fab fa-twitter"></i></Link>
-                                 <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
-                                 <Link href="#"><i className="fab fa-instagram"></i></Link>
+                                 <Link href="https://www.facebook.com/digiexpo.ae/"><i className="fab fa-facebook-f"></i></Link>
+                                 {/* <Link href="#"><i className="fab fa-twitter"></i></Link> */}
+                                 <Link href="https://www.linkedin.com/company/digiexpo-ae/"><i className="fab fa-linkedin-in"></i></Link>
+                                 <Link href="https://www.instagram.com/digiexpo_/"><i className="fab fa-instagram"></i></Link>
                               </div>
                               <div className="contact-form-section-img">
                                  <Image src={img} alt="theme-pure" />
@@ -44,7 +44,7 @@ const ContactFormArea = () => {
                      </div>
                      <div className="col-xl-7 col-lg-6">
                         <div className="contact-form-right-warp">
-                           <div className="postbox__comment-form">
+                           <div className="postbox__comment-form mb-sm-0">
                             <ContactUsForm /> 
                            </div>
                         </div>
