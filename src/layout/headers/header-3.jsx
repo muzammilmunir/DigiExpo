@@ -9,11 +9,17 @@ import Image from 'next/image';
 import logo from "../../../public/assets/img/logo/mainlogo.png"
 import PhoneFour from '@/svg/phone-4';
 import WhatsappIcon from '@/svg/whatsapp-icon';
+import ContactUsFormMuz from '@/forms/contact-us-form-muz';
 
 const HeaderThree = () => {
 
     const {sticky} = useSticky()
     const [sidebarOpen, setSidebarOpen] = useState(false)
+    const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const toggleForm = () => {
+    setIsFormOpen((prevState) => !prevState);
+  };
 
     return (
         <>
@@ -48,7 +54,10 @@ const HeaderThree = () => {
                                  </Link>
                            </div>
                            <div className="header-bottom__btn d-flex align-items-center">
-                              <Link className="tp-btn d-none d-md-inline-block tp-btn-hover alt-color-black" href="/service-details">
+                              <Link className="tp-btn d-none d-md-inline-block tp-btn-hover alt-color-black" 
+                              href="#"
+                              onClick={toggleForm}
+                              >
                                  <span>Let's Talk</span>
                                  <b></b>
                               </Link>
@@ -59,6 +68,18 @@ const HeaderThree = () => {
                   </div>
                </div>
             </div>
+            <div
+          id="formContainer"
+          className={`form-container ${isFormOpen ? "open" : ""}`}
+        >
+          <p className="tp-section-title-4 text-white">Let's Talk</p>
+          <span onClick={toggleForm} className="close-btn">
+            &times;
+          </span>
+          <div className="form-content">
+            <ContactUsFormMuz />
+          </div>
+        </div>
          </header>
          <Offcanvus sidebarOpen={sidebarOpen}  setSidebarOpen={setSidebarOpen} />
 

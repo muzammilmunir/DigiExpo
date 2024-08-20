@@ -230,7 +230,7 @@ const PostboxArea = ({ style_details_2 }) => {
                     Twitter Analytics offers a great benefit for businesses in identifying variables concerning the performance of tweets together with the demographics of the audience and engagement levels. From this data, companies will be able to understand what works for the audience and what does not so that necessary changes can be made. With the assistance of DigiExpo, organizations will be able to analyze Twitter Analytics, understand the tendencies, and adjust the publications' content for higher targeting and coverage effectiveness. For that reason, companies could expand their presence on the platform with the help of DigiExpo and attain their marketing objectives.
                     </p>
                   </div>
-                  {/* <div className="postbox__details-img-box d-flex">
+                  <div className="postbox__details-img-box d-flex">
                     <div className="mr-20 text-center">
                       <video
                         autoPlay
@@ -240,7 +240,7 @@ const PostboxArea = ({ style_details_2 }) => {
                         className="mb-20"
                       >
                         <source
-                          src="/assets/img/blog/blog-1-small.webm"
+                          src="/assets/img/blog/blog-2-small.webm"
                           type="video/webm"
                         />
                       </video>
@@ -254,12 +254,12 @@ const PostboxArea = ({ style_details_2 }) => {
                         className="mb-20"
                       >
                         <source
-                          src="/assets/img/blog/blog-1-small2.webm"
+                          src="/assets/img/blog/blog-2-small2.webm"
                           type="video/webm"
                         />
                       </video>
                     </div>
-                  </div> */}
+                  </div>
                   <div className="postbox__details-title-box pb-30">
                     <h4 className="postbox__details-title">
                     4. LinkedIn

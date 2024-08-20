@@ -12,10 +12,16 @@ import PhoneFour from "@/svg/phone-4";
 import WhatsappIcon from "@/svg/whatsapp-icon";
 import PhoneFourWhite from "@/svg/phone-4-white";
 import WhatsappIconWhite from "@/svg/whatsapp-icon-white";
+import ContactUsFormMuz from "@/forms/contact-us-form-muz";
 
 const HeaderSix = ({ style_2 = false }) => {
   const { sticky } = useSticky();
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const toggleForm = () => {
+    setIsFormOpen((prevState) => !prevState);
+  };
 
   return (
     <>
@@ -76,9 +82,10 @@ const HeaderSix = ({ style_2 = false }) => {
                           ? "tp-btn-inner alt-color-orange"
                           : "tp-btn-white alt-color-black"
                       } tp-btn-hover d-none d-md-inline-block`}
-                      href="/service-details"
+                      href="#"
+                      onClick={toggleForm}
                     >
-                      <span className="white-text">Get Started</span>
+                      <span className="white-text">Let's Talk</span>
                       <b></b>
                     </Link>
                     <a
@@ -91,6 +98,18 @@ const HeaderSix = ({ style_2 = false }) => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div
+          id="formContainer"
+          className={`form-container ${isFormOpen ? "open" : ""}`}
+        >
+          <p className="tp-section-title-4 text-white">Let's Talk</p>
+          <span onClick={toggleForm} className="close-btn">
+            &times;
+          </span>
+          <div className="form-content">
+            <ContactUsFormMuz />
           </div>
         </div>
       </header>

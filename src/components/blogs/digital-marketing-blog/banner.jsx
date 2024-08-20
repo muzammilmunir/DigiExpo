@@ -12,7 +12,7 @@ const Banner = () => {
               <div className="blog-details-big-img z-index-2">
                 <video autoPlay muted loop width="1170px">
                   <source
-                    src="/assets/img/hero/hero-video.webm"
+                    src="/assets/img/blog/main-banner-blog-1.webm"
                     type="video/webm"
                   />
                 </video>

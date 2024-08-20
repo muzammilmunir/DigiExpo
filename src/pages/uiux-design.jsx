@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Best Web Design Company in Dubai | UI UX Design Services Company"} />
+      <SEO pageTitle={"Best Web Design Company in Dubai | UI UX Design Services Company"} pageDesc={"DigiExpo will transform your brand’s vision into reality with our best web design company in Dubai. Our design agency UAE will create impactful designs"}/>
       <DesignPage />
     </Wrapper>
   );
