@@ -12,6 +12,17 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KTZJ1X0WSB"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-KTZJ1X0WSB');
+            `,
+          }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
