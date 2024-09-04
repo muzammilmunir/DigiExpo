@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Best digital marketing agency in uae | Digital marketing agency"} pageDesc={"DigiExpo, best digital marketing agency in UAE, provides innovative and effective solutions. Our digital services are designed to maximize your online presence."}/>
+      <SEO pageTitle={"Best digital marketing agency in uae | Digital marketing agency"} pageDesc={"DigiExpo, best digital marketing agency in UAE, provides innovative and effective solutions. Our digital services are designed to maximize your online presence." } canonicalUrl={"https://digiexpo.ae/digital-marketing-agency-dubai"}/>
       <DigitalMarketing />
     </Wrapper>
   );

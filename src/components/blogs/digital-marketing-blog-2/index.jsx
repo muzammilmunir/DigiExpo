@@ -1,28 +1,28 @@
 import BreadcrumbSix from "@/common/breadcrumbs/breadcrumb-6";
-import FooterFive from "@/layout/footers/footer-5";
 import HeaderSix from "@/layout/headers/header-6";
 import React from "react";
 import Banner from "./banner";
 import Portfolio from "./portfolio";
 import PostboxArea from "./postbox-area";
+import FooterFour from "@/layout/footers/footer-4";
 
-const Blog1 = () => {
+const DigitalMarketingBlog2 = () => {
   return (
     <>
       <HeaderSix />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbSix />
+            <BreadcrumbSix sub_title="Digital Marketing" title="The Growing Adaption of Digital Marketing Agencies in UAE" />
             <Banner />
             <PostboxArea />
             <Portfolio />
           </main>
-          <FooterFive style_contact={true} style_team={true} bg_style={false} />
+          <FooterFour/>
         </div>
       </div>
     </>
   );
 };
 
-export default Blog1;
+export default DigitalMarketingBlog2;

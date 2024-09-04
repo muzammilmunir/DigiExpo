@@ -14,7 +14,7 @@ import StickyIcons from "@/common/sticky-icons";
 const index = () => {
   return (
     <>
-    <SEO pageTitle={"Oops.! Page Not Found!"} />
+    <SEO pageTitle={"Oops.! Page Not Found!"} canonicalUrl={"https://digiexpo.ae/404"}/>
       <HeaderFive />
       <div id="smooth-wrapper">
         <div id="smooth-content">
