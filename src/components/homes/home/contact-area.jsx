@@ -48,7 +48,7 @@ const ContactArea = () => {
                               </li>
                               <li>
                                 <LocationTwo /> 
-                                 <Link href="https://www.google.com/maps/place/Argentina,+Santiago+del+Estero+Province,+Argentina/@-28.9465488,-65.3732971,7.53z/data=!4m5!3m4!1s0x9436ede70248f47b:0x3bdbc4e928700c2a!8m2!3d-29.5355289!4d-62.2664853"
+                                 <Link href="https://maps.app.goo.gl/3yY7Bj8aZ75oYWbUA"
                                     target="_blank">{location}</Link>
                               </li>
                            </ul>
