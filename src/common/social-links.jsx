@@ -49,14 +49,14 @@ export default SocialLinks;
 
 
 const copy_right_text = {
-  copy_right: <>© {new Date().getFullYear()} FutureWave LLC. All Rights Reserved</>,
+  copy_right: <>© {new Date().getFullYear()} FutureWave LLC. All Rights Reserved | </>,
 }
 const {copy_right}  = copy_right_text
 
 export const CopyRight = ()  => {
   return (
     <>
-    {copy_right}
+    {copy_right} {<Link href="/privacy-policy">Privacy Policy</Link>}
     </>
   )
 }

@@ -1,9 +1,10 @@
-import BreadcrumbTwo from "@/common/breadcrumbs/breadcrumb-2";
-import FooterFive from "@/layout/footers/footer-5";
 import HeaderSix from "@/layout/headers/header-6";
 import React from "react";
-import CtaArea from "../contact/cta-area";
 import TeamDetailsArea from "./team-details-area";
+import FooterFour from "@/layout/footers/footer-4";
+import StickyIcons from "@/common/sticky-icons";
+import StickyButtons from "@/common/sticky-buttons";
+import BreadcrumbTwoCopy from "@/common/breadcrumbs/breadcrumb-2-copy";
 
 const TeamDetails = () => {
   return (
@@ -12,11 +13,12 @@ const TeamDetails = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbTwo title={"Team Single"} innertitle={" Team Member "} team_details={true} />
+            <StickyIcons />
+            <StickyButtons />
+            <BreadcrumbTwoCopy title="Privacy Policy" />
             <TeamDetailsArea />
-            <CtaArea />
           </main>
-          <FooterFive  style_contact={true} style_team={true} />
+          <FooterFour />
         </div>
       </div>
     </>

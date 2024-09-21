@@ -52,13 +52,13 @@ const ServiceArea = () => {
                                        </div>
                                        <div className="tp-service-five-content">
                                           <h3 className="tp-service-five-title-sm">
-                                            <Link href="/service-details">Digital <br /> Marketing</Link>
+                                            <Link href="/digital-marketing-agency-dubai">Digital <br /> Marketing</Link>
                                           </h3>
                                           <p>Our Digital Marketers will help to increase traffic, boost conversion rates, and maximize your business's revenue.</p>
                                        </div>
                                     </div>
                                     <div className="tp-service-five-btn text-end">
-                                       <Link href="/service-details"><i className="far fa-arrow-right"></i></Link>
+                                       <Link href="/digital-marketing-agency-dubai"><i className="far fa-arrow-right"></i></Link>
                                     </div>
                                  </div>
                               </div>                                
@@ -77,13 +77,13 @@ const ServiceArea = () => {
                                        </div>
                                        <div className="tp-service-five-content">
                                           <h3 className="tp-service-five-title-sm">
-                                            <Link href="/service-details">Website <br /> Development</Link>
+                                            <Link href="/website-development-company-in-dubai">Website <br /> Development</Link>
                                           </h3>
                                           <p>DigiExpo professional web developers will bring the digital vision of your brand to life with a user-friendly, and responsive website.</p>
                                        </div>
                                     </div>
                                     <div className="tp-service-five-btn text-end">
-                                       <Link href="/service-details"><i className="far fa-arrow-right"></i></Link>
+                                       <Link href="/website-development-company-in-dubai"><i className="far fa-arrow-right"></i></Link>
                                     </div>
                                  </div>
                               </div>                                
@@ -102,13 +102,13 @@ const ServiceArea = () => {
                                        </div>
                                        <div className="tp-service-five-content">
                                           <h3 className="tp-service-five-title-sm">
-                                            <Link href="/service-details">Search Engine <br />Optimization</Link>
+                                            <Link href="/emerging-technology">Search Engine <br />Optimization</Link>
                                           </h3>
                                           <p>Enhance your business online presence and drive targeted traffic with DigiExpo's expert SEO and content creation services.</p>
                                        </div>
                                     </div>
                                     <div className="tp-service-five-btn text-end">
-                                       <Link href="/service-details"><i className="far fa-arrow-right"></i></Link>
+                                       <Link href="/emerging-technology"><i className="far fa-arrow-right"></i></Link>
                                     </div>
                                  </div>
                               </div>                                
@@ -127,13 +127,13 @@ const ServiceArea = () => {
                                        </div>
                                        <div className="tp-service-five-content">
                                           <h3 className="tp-service-five-title-sm">
-                                            <Link href="/service-details">Social Media <br /> Marketing</Link>
+                                            <Link href="/digital-marketing-agency-dubai">Social Media <br /> Marketing</Link>
                                           </h3>
                                           <p>We will help you to increase your brand’s visibility, engagement, and business growth with our expert social media marketers.</p>
                                        </div>
                                     </div>
                                     <div className="tp-service-five-btn text-end">
-                                       <Link href="/service-details"><i className="far fa-arrow-right"></i></Link>
+                                       <Link href="/digital-marketing-agency-dubai"><i className="far fa-arrow-right"></i></Link>
                                     </div>
                                  </div>
                               </div>                                

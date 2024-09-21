@@ -89,17 +89,17 @@ const StickyIcons = () => {
         ))}
       </div>
       <div
-          id="formContainer"
-          className={`form-container ${isFormOpen ? "open" : ""}`}
-        >
-          <p className="tp-section-title-4 text-white">Let's Talk</p>
-          <span onClick={toggleForm} className="close-btn">
-            &times;
-          </span>
-          <div className="form-content">
-            <ContactUsFormMuz />
-          </div>
+        id="formContainer"
+        className={`form-container ${isFormOpen ? "open" : ""}`}
+      >
+        <p className="tp-section-title-4 text-white">Let's Talk</p>
+        <span onClick={toggleForm} className="close-btn">
+          &times;
+        </span>
+        <div className="form-content">
+          <ContactUsFormMuz />
         </div>
+      </div>
     </>
   );
 };

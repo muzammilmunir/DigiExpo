@@ -12,10 +12,25 @@ import Link from 'next/link';
 
 const team_details_content = {
     name: "Imdat Cimsit",
-    feature_list: [
-        <>Cras sed felis eget velit aliquet. Morbi quis commodo odio</>,
-        <>Pharetra vel turpis nunc eget lorem dolor. Quam vulputate <br />dignissim</>,
-        <>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</>,
+    feature_list1: [
+        <>Personal Information: Your name, email address, phone number, and any other information you provide voluntarily.</>,
+        <>Usage Data: Information such as your IP address, browser type, and pages you visit, collected through cookies and similar tracking technologies.</>,
+        <>Marketing Data: Information you provide for email subscriptions, contact forms, or social media interactions.</>,
+    ],
+    feature_list2: [
+        <>To provide, operate, and maintain our services.</>,
+        <>To communicate with you regarding inquiries, promotions, and updates.</>,
+        <>To improve our website and services based on user experience and analytics.</>,
+        <>To manage our marketing campaigns and customer interactions.</>,
+    ],
+    feature_list3: [
+        <>Service Providers: Third-party service providers who assist us in operating our website and services, such as analytics or email platforms.</>,
+        <>Legal Obligations: If required by law, regulation, or court order to disclose information.</>,
+    ],
+    feature_list4: [
+        <>Access, correct, or delete your personal information.</>,
+        <>Opt-out of receiving marketing communications from us at any time.</>,
+        <>Request that we restrict or cease processing your data.</>,
     ],
     expricence: [
         {id: 1, title: "Role:", info: "Design"},
@@ -23,103 +38,123 @@ const team_details_content = {
     ],
     skill_title: "Superpower Skills:",
     details_skill: ["Interaction Design", "User Research", "Figma"],
-    membur_about_title: "About Imdat Cimsit",
-    about_info_1: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- </>,
-    about_info_2: <>Cras sed felis eget velit aliquet. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh tellus molestie nunc non blandit massa enim nec. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Posuere morbi leo urna molestie.
-    </>,
+    title1: "Introduction",
+    about_info_1: <>DigiExpo ("we," "our," "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website, use our services, or engage with us in any way. By using DigiExpo's services, you agree to the terms of this Privacy Policy.</>,
+    title2: "1. Information We Collect",
+    about_info_2: <>We may collect the following types of information:</>,
+    title3: "2. How We Use Your Information",
+    about_info_3: <>We may use your information for the following purposes:</>,
+    title4: "3. Sharing Your Information",
+    about_info_4: <>We do not sell or rent your personal information. However, we may share your data in the following scenarios:</>,
+    title5: "4. Data Security",
+    about_info_5: <>DigiExpo implements robust security measures to protect your personal data. We use encryption, secure servers, and other technologies to ensure your information is handled safely. However, no system can guarantee 100% security, so we urge you to protect your information as well.</>,
+    title6: "5. Your Rights",
+    about_info_6: <>You have the right to:</>,
+    title7: "6. Cookies and Tracking Technologies",
+    about_info_7: <>DigiExpo uses cookies to enhance your experience on our website. You can manage or disable cookies through your browser settings, though doing so may affect certain functionalities of our site.</>,
+    title8: "7. External Links",
+    about_info_8: <>Our website may contain links to third-party websites. DigiExpo is not responsible for the privacy practices or content of these external sites. We encourage you to review their privacy policies before providing any personal information.</>,
+    title9: "8. Changes to This Privacy Policy",
+    about_info_9: <>DigiExpo reserves the right to update or modify this Privacy Policy at any time. Any changes will be reflected on this page, so we encourage you to review it periodically.</>,
+   //  about_info_2: <>Cras sed felis eget velit aliquet. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh tellus molestie nunc non blandit massa enim nec. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Posuere morbi leo urna molestie.
+   //  </>,
 }
 const {
     name, 
-    feature_list, 
+    feature_list1,
+    feature_list2,
+    feature_list3,
+    feature_list4,
     expricence,  
     skill_title, 
     details_skill, 
-    membur_about_title, 
+    title1, 
     about_info_1, 
-    about_info_2
+    title2, 
+    about_info_2, 
+    title3, 
+    about_info_3, 
+    title4, 
+    about_info_4, 
+    title5, 
+    about_info_5, 
+    title6, 
+    about_info_6, 
+    title7, 
+    about_info_7, 
+    title8, 
+    about_info_8, 
+    title9, 
+    about_info_9, 
 }  = team_details_content
 
 const TeamDetailsArea = () => {
     return (
         <>
-            <div className="team-details-area pt-100 pb-100">
+            <div className="team-details-area pt-50 pb-100">
                <div className="container">
-                  <div className="row justify-content-center">
-                     <div className="col-xl-10">
-                        <div className="team-details-wrapper">
-                           <div className="row">
-                              <div className="col-xl-4 col-lg-4 col-md-4">
-                                 <div className="team-details-img-box text-center">
-                                    <div className="team-details-img">
-                                       <Image src={team_img} alt="theme-pure" />
-                                    </div>
-                                    <div className="team-details-work-tag">
-                                       <span> 
-                                          <CheckboxIcon />
-                                       </span>
-                                       <span>Looking for Work</span>
-                                    </div>
-                                    <div className="team-details-work-location">
-                                       <span> 
-                                          <LocationIconThree />
-                                       </span>
-                                       <span>Newark, NJ</span>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div className="col-xl-8 col-lg-8 col-md-8">
-                                 <div className="team-details-info-box">
-                                    <h3 className="team-details-client-title">{name}</h3>
-                                    <div className="team-details-contact-box d-flex align-items-center">
-                                       <div className="team-details-social-info">
-                                          <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                                          <Link href="#"><i className="fab fa-twitter"></i></Link>
-                                          <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
-                                          <Link href="#"><i className="fab fa-instagram"></i></Link>
-                                       </div>
-                                       <div className="team-details-personal-info">
-                                          <Link href="#"> 
-                                             <EmailFive />
-                                             <span>Message</span>
-                                          </Link>
-                                          <Link href="#"> 
-                                             <ShareIcon />
-                                             <span>Share</span>
-                                          </Link>
-                                       </div>
-                                    </div>
-                                    <div className="team-details-expricence-box d-flex align-items-center">
-                                       {expricence.map((item, i) => 
-                                          <div key={i} className="team-details-expricence-box-1">
-                                             <span>{item.title}</span> <br />
-                                             <em>{item.info}</em>
-                                          </div>
-                                       )} 
-                                    </div>
-                                    <div className="team-details-skill">
-                                       <h5>{skill_title}</h5>
-                                       {details_skill.map((item, i)  => <span key={i}>{item}</span>)} 
-                                    </div>
-                                 </div>
-                              </div>
-                           </div> 
-                        </div>
-                     </div>
-                  </div>
                   <div className="row justify-content-center">
                      <div className="col-xl-8 col-lg-10">
                         <div className="team-details-text-wrapper pt-80">
                            <div className="team-details-text">
-                              <h4 className="team-details-title">{membur_about_title}</h4>
+                              <h4 className="team-details-title">{title1}</h4>
                               <p>{about_info_1}</p>
+                           </div>
+                           <div className="team-details-text">
+                              <h4 className="team-details-title">{title2}</h4>
+                              <p>{about_info_2}</p>
                            </div>
                            <div className="team-details-feature-list">
                               <ul>
-                              {feature_list.map((item, i) => <li key={i}>{item}</li>)} 
+                              {feature_list1.map((item, i) => <li key={i}>{item}</li>)} 
                               </ul>
-                              <p>{about_info_2}</p>
+                              {/* <p>{about_info_2}</p> */}
+                           </div>
+                           <div className="team-details-text">
+                              <h4 className="team-details-title">{title3}</h4>
+                              <p>{about_info_3}</p>
+                           </div>
+                           <div className="team-details-feature-list">
+                              <ul>
+                              {feature_list2.map((item, i) => <li key={i}>{item}</li>)} 
+                              </ul>
+                              {/* <p>{about_info_2}</p> */}
+                           </div>
+                           <div className="team-details-text">
+                              <h4 className="team-details-title">{title4}</h4>
+                              <p>{about_info_4}</p>
+                           </div>
+                           <div className="team-details-feature-list">
+                              <ul>
+                              {feature_list3.map((item, i) => <li key={i}>{item}</li>)} 
+                              </ul>
+                              {/* <p>{about_info_2}</p> */}
+                           </div>
+                           <div className="team-details-text">
+                              <h4 className="team-details-title">{title5}</h4>
+                              <p>{about_info_5}</p>
+                           </div>
+                           <div className="team-details-text">
+                              <h4 className="team-details-title">{title6}</h4>
+                              <p>{about_info_6}</p>
+                           </div>
+                           <div className="team-details-feature-list">
+                              <ul>
+                              {feature_list4.map((item, i) => <li key={i}>{item}</li>)} 
+                              </ul>
+                              {/* <p>{about_info_2}</p> */}
+                           </div>
+                           <div className="team-details-text">
+                              <h4 className="team-details-title">{title7}</h4>
+                              <p>{about_info_7}</p>
+                           </div>
+                           <div className="team-details-text">
+                              <h4 className="team-details-title">{title8}</h4>
+                              <p>{about_info_8}</p>
+                           </div>
+                           <div className="team-details-text">
+                              <h4 className="team-details-title">{title9}</h4>
+                              <p>{about_info_9}</p>
                            </div>
                         </div>
                      </div>

@@ -82,7 +82,7 @@ const FooterFour = () => {
                                        <Link href={`mailto:${email}`}>{email}</Link>
                                     </li>
                                     <li>
-                                       <LocationTwo />  <Link href="https://www.google.com/maps/place/Argentina,+Santiago+del+Estero+Province,+Argentina/@-28.9465488,-65.3732971,7.53z/data=!4m5!3m4!1s0x9436ede70248f47b:0x3bdbc4e928700c2a!8m2!3d-29.5355289!4d-62.2664853" target="_blank">{location}</Link>
+                                       <LocationTwo />  <Link href="https://maps.app.goo.gl/3yY7Bj8aZ75oYWbUA" target="_blank">{location}</Link>
                                     </li>
                                  </ul>
                               </div>
@@ -166,7 +166,7 @@ const FooterFour = () => {
                <div className="tp-copyright__area pt-20 pb-20 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
                   <div className="container">
                      <div className="row justify-content-center">
-                        <div className="col-xl-4 col-lg-6 col-md-6">
+                        <div className="col-lg-6 col-md-6">
                            <div className="tp-copyright__text tp-copyright__text-4 text-center">
                               <span><CopyRight /></span>
                            </div>

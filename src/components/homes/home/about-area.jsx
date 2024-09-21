@@ -53,7 +53,7 @@ const AboutArea = () => {
                               </ul>
                            </div>
                            <div className="tp-security-btn">
-                              <Link className="tp-btn-yellow-border" href="/about">{btn_text}<i className="far fa-angle-right"></i></Link>
+                              <Link className="tp-btn-yellow-border" href="/contact">{btn_text}<i className="far fa-angle-right"></i></Link>
                            </div>
                         </div>
                      </div>

@@ -8,6 +8,7 @@ import HeroBanner from "../../common/hero-banner";
 import OfficeLocation from "./office-location";
 import FooterFour from "@/layout/footers/footer-4";
 import StickyIcons from "@/common/sticky-icons";
+import StickyButtons from "@/common/sticky-buttons";
 
 const Contact = () => {
   return (
@@ -17,6 +18,7 @@ const Contact = () => {
         <div id="smooth-content">
           <main>
             <StickyIcons/>
+            <StickyButtons/>
             <Breadcrumb title_top="Get In" title_bottom="Get In" />
             <HeroBanner bg_img="/assets/img/contact/contact-banner.jpg" />
             <OfficeLocation />

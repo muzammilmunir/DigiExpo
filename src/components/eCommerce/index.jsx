@@ -14,6 +14,7 @@ import ServiceArea from "./service-area";
 import ServiceArea2 from "./service-area2";
 import HeaderSix from "@/layout/headers/header-6";
 import StickyIcons from "@/common/sticky-icons";
+import StickyButtons from "@/common/sticky-buttons";
 
 const Ecommerce = () => {
   return (
@@ -23,6 +24,7 @@ const Ecommerce = () => {
         <div id="smooth-content">
           <main>
             <StickyIcons/>
+            <StickyButtons/>
             <HeroArea />
             <Brand />
             <ServiceArea />

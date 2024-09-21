@@ -16,6 +16,7 @@ import BlogArea from "../homes/home/blog-area";
 import ContactArea from "../homes/home/contact-area";
 import AboutArea2 from "../homes/home/about-area";
 import StickyIcons from "@/common/sticky-icons";
+import StickyButtons from "@/common/sticky-buttons";
 const NextGen = () => {
   return (
     <>
@@ -24,6 +25,7 @@ const NextGen = () => {
         <div id="smooth-content">
           <main>
           <StickyIcons/>
+          <StickyButtons/>
           <BreadcrumbThree />
           <CarrerBanner />
           <Brand />

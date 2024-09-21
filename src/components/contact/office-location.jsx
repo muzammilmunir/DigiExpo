@@ -54,7 +54,7 @@ const OfficeLocation = () => {
                     </div>
                     <div className="contact-info-title-box">
                       <h5 className="contact-info-title-sm">
-                        <Link href="#">{item.location}</Link>
+                        <Link href="https://maps.app.goo.gl/3yY7Bj8aZ75oYWbUA">{item.location}</Link>
                       </h5>
                       <p>{item.address}</p>
                     </div>

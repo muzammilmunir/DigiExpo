@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { useState } from "react";
+import ContactUsFormMuz from "@/forms/contact-us-form-muz";
 
 const social_links = [
   {
@@ -43,6 +45,11 @@ const social_links = [
 ];
 
 const StickyButtons = () => {
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const toggleForm = () => {
+    setIsFormOpen((prevState) => !prevState);
+  };
   return (
     <>
       <div className="mobile-only">
@@ -59,8 +66,20 @@ const StickyButtons = () => {
           ))}
         </div>
         <div className="mobile-quote-wrapper">
-            <a href="#">Get A Quote</a>
+          <button onClick={toggleForm}>Get A Quote</button>
         </div>
+        <div
+        id="formContainer"
+        className={`form-container ${isFormOpen ? "open" : ""}`}
+      >
+        <p className="tp-section-title-4 text-white">Let's Talk</p>
+        <span onClick={toggleForm} className="close-btn">
+          &times;
+        </span>
+        <div className="form-content">
+          <ContactUsFormMuz />
+        </div>
+      </div>
       </div>
     </>
   );

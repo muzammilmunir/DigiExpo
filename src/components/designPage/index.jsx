@@ -14,6 +14,7 @@ import PaymentMethodArea from "../homes/home/payment-method-area";
 import AboutArea from "../homes/home/about-area";
 import HeaderSix from "@/layout/headers/header-6";
 import StickyIcons from "@/common/sticky-icons";
+import StickyButtons from "@/common/sticky-buttons";
 
 const DesignPage = () => {
   return (
@@ -23,6 +24,7 @@ const DesignPage = () => {
         <div id="smooth-content">
           <main>
             <StickyIcons/>
+            <StickyButtons/>
             <BreadcrumbTwoCopy title="Get Your Desired Business Growth with Intuitive UI/UX Design Services in Dubai" />
             <Brand />
             <ServiceArea />

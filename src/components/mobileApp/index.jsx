@@ -25,7 +25,7 @@ const MobileApp = () => {
         <div id="smooth-content">
           <main className="fix">
             <StickyIcons/>
-            {/* <StickyButtons/> */}
+            <StickyButtons/>
             <HeroArea />
             <Brand/>
             <ServicesArea />

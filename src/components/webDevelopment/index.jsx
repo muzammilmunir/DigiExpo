@@ -15,11 +15,13 @@ import FaqArea from "./faq-area";
 import BlogArea from "../homes/home/blog-area";
 import ContactArea from "../homes/home/contact-area";
 import StickyIcons from "@/common/sticky-icons";
+import StickyButtons from "@/common/sticky-buttons";
 
 const WebDevelopment = () => {
   return (
     <>
       <StickyIcons/>
+      <StickyButtons/>
       <HeaderThree />
       <HeroArea />
       <Brand />

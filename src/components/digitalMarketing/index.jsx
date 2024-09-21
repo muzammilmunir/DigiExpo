@@ -15,6 +15,7 @@ import ContactArea from "../homes/home/contact-area";
 import FooterFour from "@/layout/footers/footer-4";
 import FaqArea from "./faq-area";
 import StickyIcons from "@/common/sticky-icons";
+import StickyButtons from "@/common/sticky-buttons";
 
 
 const DigitalMarketing = () => {
@@ -25,6 +26,7 @@ const DigitalMarketing = () => {
         <div id="smooth-content">
           <main>
             <StickyIcons/>
+            <StickyButtons/>
             <HeroArea />
             <Brand />
             <ServiceArea />

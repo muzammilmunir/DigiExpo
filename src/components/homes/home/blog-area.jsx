@@ -23,7 +23,7 @@ const BlogArea = () => {
                 </h5>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-xl-6 col-lg-6 wow tpfadeRight"
               data-wow-duration=".9s"
               data-wow-delay=".5s"
@@ -37,7 +37,7 @@ const BlogArea = () => {
                   <b></b>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="row">
               <div
