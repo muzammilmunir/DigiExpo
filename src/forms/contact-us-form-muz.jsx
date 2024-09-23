@@ -105,11 +105,12 @@ const ContactUsFormMuz = () => {
             <NiceSelect
               options={[
                 { value: "Your Inquiry about", text: "Your Inquiry about" },
-                { value: "01 Year", text: "01 Year" },
-                { value: "02 Year", text: "02 Year" },
-                { value: "03 Year", text: "03 Year" },
-                { value: "04 Year", text: "04 Year" },
-                { value: "05 Year", text: "05 Year" },
+                { value: "Digital Marketing", text: "Digital Marketing" },
+                { value: "Website Development", text: "Website Development" },
+                { value: "UI / UX Design", text: "UI / UX Design" },
+                { value: "Mobile Apps", text: "Mobile Apps" },
+                { value: "E-Commerce", text: "E-Commerce" },
+                { value: "Emerging Technology", text: "Emerging Technology" },
               ]}
               defaultCurrent={0}
               onChange={selectHandler}
