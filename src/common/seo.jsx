@@ -30,6 +30,43 @@ const SEO = ({ pageTitle, pageDesc, canonicalUrl }) => {
           async
           src="https://connect.facebook.net/en_US/fbevents.js"
         ></script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "digiexpo.ae",
+              url: "https://www.digiexpo.ae/",
+              potentialAction: {
+                "@type": "SearchAction",
+                target:
+                  "https://www.digiexpo.ae/search?query={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Digiexpo.ae",
+              alternateName: "DigiExpo",
+              url: "https://www.digiexpo.ae/",
+              logo: "https://www.digiexpo.ae/_next/static/media/mainlogo.46431c48.png",
+              sameAs: [
+                "https://www.facebook.com/digiexpo.ae/",
+                "https://www.instagram.com/digiexpo_/",
+                "https://www.linkedin.com/company/digiexpo-ae/",
+                "https://www.digiexpo.ae/",
+              ],
+            }),
+          }}
+        />
+
         <noscript>
           <img
             height="1"
